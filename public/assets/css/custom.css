@@ -1,0 +1,13 @@
+#sideMobile {
+  display:none;
+}
+
+@media only screen and (min-width: 768px) {
+    #sideMobile {
+      display:block;
+    }
+
+    #sideTop{
+    	display: none;
+    }
+}
