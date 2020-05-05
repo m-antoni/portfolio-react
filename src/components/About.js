@@ -20,25 +20,19 @@ class About extends Component {
 			            </div>
 
 			            <p className="lead mb-5 wow fadeInRight text-justify">
-			                Writing a well designed efficient and maintanable code by using best practices in software development. collaborate with developers that aim to bring the best application that can be use by companies and entrepreneurs around the world.
+			                Writing a well designed efficient code by using best practices in software development. collaborate with developers that aim to bring the best application that can be use by companies and entrepreneurs around the world.
 			            </p>
 
 			            <p className="lead mb-4 text-white">
 			                <TypeIt options={{ loop: true, pause: 300, speed: 70, strings: [ "Please Hire Me! Thank You"]}}></TypeIt>
 			            </p>
 
-			            <a href="http://michaelantoni.ga/mycv.pdf" download>
+			            <a href="https://drive.google.com/file/d/1DKCWDYCeuknN2W_UqM2kbw9pnuSa6V4Q/view?usp=sharing" target="_blank">
 			                <button className="btn btn--border text-white wow zoomIn downloadcv mt-2 mr-4" data-wow-delay="1s">
-			                    <span> <i className="ti-download"></i> MY CV</span>
+			                    <span> <i className="ti-download"></i>DOWNLOAD CV</span>
 			                </button>
 			            </a>
 			            &nbsp;
-			            <a href="http://michaelantoni.ga/myportfolio.pdf" download>
-			                <button className="btn btn--border text-white wow zoomIn downloadcv mt-2" data-wow-delay="1s">
-			                    <span><i className="ti-agenda"></i> MY PORTFOLIO </span>
-			                </button>
-			            </a>
-
 			        </div>
 			    </section>
 			</Fragment>

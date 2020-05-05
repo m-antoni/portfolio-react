@@ -11,7 +11,7 @@ class Awards extends Component {
 				        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 				            <div className="resume-content wow fadeInUp">
 				                <h3 className="mb-0">Best Programmer</h3>
-				                <div className="subheading mb-3">Acer Academy Awardee</div>
+				                <div className="subheading"><a href="https://academy.acer.com.ph/" className="text-primary" target="_blank">Acer Academy Awardee</a></div>
 				                <div>2019</div>
 				            </div>
 				        </div>
@@ -19,7 +19,7 @@ class Awards extends Component {
 				        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 				            <div className="resume-content wow fadeInUp">
 				                <h3 className="mb-0">Computer Programmer Assistant</h3>
-				                <div className="subheading mb-3">International Certificate Level Royal Institution Singapore</div>
+				                <div className="subheading"><a href="https://www.ri2020.com/" className="text-primary" target="_blank">International Certificate Level Royal Institution Singapore</a></div>
 				                <div>2019</div>
 				            </div>
 				        </div>
@@ -27,7 +27,7 @@ class Awards extends Component {
 				        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 				            <div className="resume-content wow fadeInUp">
 				                <h3 className="mb-0">Outstanding Student Award</h3>
-				                <div className="subheading mb-3">St. Clare College of Caloocan</div>
+				                <div className="subheading">St. Clare College of Caloocan</div>
 				                <div>2019</div>
 				            </div>
 				        </div>
@@ -35,7 +35,7 @@ class Awards extends Component {
 				   		<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 				            <div className="resume-content wow fadeInUp">
 				                <h3 className="mb-0">Best Web Design Award</h3>
-				                <div className="subheading mb-3">St. Clare College of Caloocan</div>
+				                <div className="subheading">St. Clare College of Caloocan</div>
 				                <div>2017</div>
 				            </div>
 				        </div>

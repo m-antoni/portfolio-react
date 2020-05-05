@@ -1,12 +1,14 @@
 import React , { Fragment } from 'react';
+
 import Navbar from './components/layouts/Navbar';
 import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
-import Interest from './components/Interest';
 import Awards from './components/Awards';
 import Seminars from './components/Seminars';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -31,6 +33,10 @@ function App() {
           <Skills/>
 
           <hr className="m-0"/>
+
+          <Portfolio/>
+
+          <hr className="m-0"/>
           
           <Seminars/>
 
@@ -40,7 +46,7 @@ function App() {
 
           <hr className="m-0"/>
 
-          <Interest/> 
+          <Contact/>
 
         </div>
         

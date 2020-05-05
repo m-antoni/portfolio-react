@@ -21,7 +21,7 @@ class Experience extends Component {
 	                  </ul>
 	                </div>
 	                <div className="resume-date text-md-right">
-	                  <span className="text-primary">Nov 2019 - PRESENT</span>
+	                  <span className="text-primary">Nov 2019 - </span><span className="text-success"><strong>PRESENT</strong></span>
 	                </div>
 	              </div>
 
@@ -46,8 +46,11 @@ class Experience extends Component {
 	                <div className="resume-content wow fadeInUp">
 	                  <h3 className="mb-0">Web Developer INTERN</h3>
 	                  <div className="subheading mb-3">TD Calizo Realty</div>
-	                  <p>Creates the look, layout, and features of company website. Both graphic design and computer programming. Make the website introduce to a new web design standards like animation, typography, and responsiveness.</p>
-	                </div>
+	                   <ul>
+	                  	<li>Create Front-end Design for website</li>
+						<li>Learned Linux Base Architecture</li>
+	                  </ul>
+	                  </div>
 	                <div className="resume-date text-md-right">
 	                  <span className="text-primary">Jun 2018 - Nov 2018</span>
 	                </div>
@@ -57,7 +60,12 @@ class Experience extends Component {
 	                <div className="resume-content wow fadeInUp">
 	                  <h3 className="mb-0">Head Technician</h3>
 	                  <div className="subheading mb-3">Computer World</div>
-	                  <p>Set up hardware and install software applications on laptops and desktop computers. Troubleshoot system failures or bugs and provide solutions to restore functionality keep records of repairs and fixes for future reference. Perform regular upgrades to ensure systems remain updated and Offer timely technical support and teach users how to utilize computers correctly.</p>
+	                	<ul>
+	                  	<li>Software and Hardware installation for desktop and laptop computers</li>
+						<li>Troubleshoot system failures and data restoration</li>
+						<li>Perform regular upgrades to ensure systems remain updated</li>
+						<li>Technical support and teach users how to utilize computers correctly.</li>
+	                  </ul>
 	                </div>
 	                <div className="resume-date text-md-right">
 	                  <span className="text-primary">Jul 2014 - Mar 2016</span>
@@ -68,7 +76,11 @@ class Experience extends Component {
 	                <div className="resume-content wow fadeInUp">
 	                  <h3 className="mb-0">Technical Staff</h3>
 	                  <div className="subheading mb-3">Monster PrintAds / Servotech </div>
-	                  <p>Operating and maintaining Large Format printers with focus on optimizing safety and quality, laminatites and compare colors for accurate output. Mid design skills with an eye for detail. Organize manage and track digital asset files/creative work to meet the organizational needs.</p>
+	                <ul>
+	                  	<li>Operate Large Format Printers</li>
+						<li>Installing Marketing and Advertising Materials</li>
+						<li>Minimal Graphic Layout Designs</li>
+	                  </ul>
 	                </div>
 	                <div className="resume-date text-md-right">
 	                  <span className="text-primary">Mar 2012 - Jun 2014</span>

@@ -34,7 +34,7 @@ class Navbar extends Component {
 		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#skills">Skills</AnchorLink>
 		              </li>
 		              <li className="nav-item">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#">Portfolio</AnchorLink>
+		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</AnchorLink>
 		              </li>
 		              <li className="nav-item">
 		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#seminars">Seminars</AnchorLink>
@@ -42,12 +42,9 @@ class Navbar extends Component {
 		              <li className="nav-item">
 		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#awards">Awards</AnchorLink>
 		              </li>
-		              <li className="nav-item">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#interests">Interests</AnchorLink>
-		              </li>
-		              <li className="nav-item">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#interests">Contact</AnchorLink>
-		              </li>
+		              {/*<li className="nav-item">
+		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#contact">Contact</AnchorLink>
+		              </li>*/}
 		            </ul>
 		          </div>
 		        </nav>

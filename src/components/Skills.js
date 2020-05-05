@@ -12,39 +12,48 @@ class Skill extends Component {
 	              <div className="subheading mb-3">Programming Languages &amp; Tools</div>
 	              <ul className="list-inline dev-icons">
 	              	<li className="list-inline-item">
-	                  	<i className="devicon-javascript-plain colored"></i>
-	                </li>	   
+	                  	<i className="devicon-bootstrap-plain colored fa-2x"></i>
+	                </li>	 
+	              	<li className="list-inline-item">
+	                  	<i className="devicon-javascript-plain colored fa-2x"></i>
+	                </li>	               	   
 	                <li className="list-inline-item">
-	                  	<i className="devicon-jquery-plain-wordmark colored"></i>
+	                  	<i className="devicon-jquery-plain-wordmark colored fa-2x"></i>
 	                </li>	
 	                <li className="list-inline-item">
-	                  	<i className="devicon-php-plain"></i>
+	                  	<i className="devicon-php-plain fa-2x"></i>
 	                </li>
 	               	<li className="list-inline-item">
-	                  	<i className="devicon-laravel-plain colored"></i>
+	                  	<i className="devicon-laravel-plain colored fa-2x"></i>
 	                </li>
 	               	<li className="list-inline-item">
-	                  	<i className="devicon-react-original colored"></i>
+	                  	<i className="devicon-react-original colored fa-2x"></i>
 	                </li>
 	                <li className="list-inline-item">
-	                  	<i className="devicon-nodejs-plain colored"></i>
+	                  	<i className="devicon-nodejs-plain colored fa-2x"></i>
 	                </li>
 
 	                <li className="list-inline-item">
-	                 	<i className="devicon-mysql-plain-wordmark colored"></i>
+	                 	<i className="devicon-mysql-plain-wordmark colored fa-2x"></i>
 	                </li>
 	                <li className="list-inline-item">
-	                  	<i className="devicon-postgresql-plain colored"></i>
+	                  	<i className="devicon-postgresql-plain colored fa-2x"></i>
 	                </li>
 	                <li className="list-inline-item">
-	                	<i className="devicon-mongodb-plain-wordmark colored"></i>
+	                	<i className="devicon-mongodb-plain-wordmark colored fa-2x"></i>
 	                </li>
 	                <li className="list-inline-item">
-	                  	<i className="devicon-git-plain colored"></i>
+	                  	<i className="devicon-git-plain colored fa-2x"></i>
 	                </li>
 	                <li className="list-inline-item">
-	                  	<i className="devicon-linux-plain colored"></i>
-	                </li>	                	                             			
+	                  	<i className="devicon-bitbucket-plain colored fa-2x"></i>
+	                </li>	    
+	                <li className="list-inline-item">
+	                  	<i className="devicon-ubuntu-plain colored fa-2x"></i>
+	                </li>
+	               	<li className="list-inline-item">
+	                  	<i className="devicon-photoshop-plain colored fa-2x"></i>
+	                </li>		                	                             			
 	              </ul>
 	            </div>
 	          </section>
