@@ -36,11 +36,11 @@ function App() {
 
           <hr className="m-0"/>
 
-          <Interest/>
+          <Awards/>
 
           <hr className="m-0"/>
 
-          <Awards/>
+          <Interest/> 
 
         </div>
         

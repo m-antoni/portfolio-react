@@ -42,9 +42,6 @@ class Seminars extends Component {
 				                <div className="mt-2">June 20, 2013 - June 22, 2013</div>
 				            </div>
 				        </div>
-
-
-
 				    </div>
 				</section>
 			</Fragment>

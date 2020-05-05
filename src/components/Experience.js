@@ -65,7 +65,7 @@ class Experience extends Component {
 	              </div>
 
 	              <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-	                <div className="resume-content">
+	                <div className="resume-content wow fadeInUp">
 	                  <h3 className="mb-0">Technical Staff</h3>
 	                  <div className="subheading mb-3">Monster PrintAds / Servotech </div>
 	                  <p>Operating and maintaining Large Format printers with focus on optimizing safety and quality, laminatites and compare colors for accurate output. Mid design skills with an eye for detail. Organize manage and track digital asset files/creative work to meet the organizational needs.</p>

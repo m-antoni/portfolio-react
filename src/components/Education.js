@@ -11,7 +11,7 @@ class Education extends Component {
 				        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 				            <div className="resume-content wow fadeInUp">
 				                <h3 className="mb-0">St. Claire College of Caloocan</h3>
-				                <div className="subheading mb-3">Bachelor of Science in Computer Science</div>
+				                <div className="subheading mb-2">Bachelor of Science in Computer Science</div>
 				                <div>Graduate</div>
 				            </div>
 				            <div className="resume-date text-md-right">
@@ -22,7 +22,7 @@ class Education extends Component {
 				        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 				            <div className="resume-content wow fadeInUp">
 				                <h3 className="mb-0">STI College Fairview</h3>
-				                <div className="subheading mb-3">Diploma in Information Technology</div>
+				                <div className="subheading mb-2">Diploma in Information Technology</div>
 				                <div>2 Year Course</div>
 				            </div>
 				            <div className="resume-date text-md-right">
@@ -33,7 +33,7 @@ class Education extends Component {
 				        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 				            <div className="resume-content wow fadeInUp">
 				                <h3 className="mb-0">Bagong Silang High School</h3>
-				                <div className="subheading mb-3"></div>
+				                <div className="subheading mb-2"></div>
 				                <div>Secondary Education</div>
 				            </div>
 				            <div className="resume-date text-md-right">
