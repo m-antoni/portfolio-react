@@ -44,9 +44,9 @@ function App() {
 
           <Awards/>
 
-          <hr className="m-0"/>
+          {/*<hr className="m-0"/>
 
-          <Contact/>
+          <Contact/>*/}
 
         </div>
         
