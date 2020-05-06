@@ -30,29 +30,14 @@ class Experience extends Component {
 	                  <h3 className="mb-0">PHP Developer</h3>
 	                  <div className="subheading mb-3">DC Multinational Group of Companies</div>
 	                  <ul>
-	                  	<li>Full-Stack Engineering</li>
-						<li>Create Reliable and Maintainable applications</li>
-						<li>Working on Linux Base Operating System</li>
-						<li>Follow best practices for efficient and readable codes</li>
-						<li>Develop and implement the design features and functionality requirements.</li>
+	                  	<li>Manage Cpanel</li>
+	                  	<li>Implements API Services</li>
+						<li>Maintenance of current web application</li>
+						<li>Integration and customization of themes and plugins in Wix</li>
 	                  </ul>
 	                </div>
 	                <div className="resume-date text-md-right">
 	                  <span className="text-primary">June 2019 - October 2019</span>
-	                </div>
-	              </div>
-
-	              <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-	                <div className="resume-content wow fadeInUp">
-	                  <h3 className="mb-0">Web Developer INTERN</h3>
-	                  <div className="subheading mb-3">TD Calizo Realty</div>
-	                   <ul>
-	                  	<li>Create Front-end Design for website</li>
-						<li>Learned Linux Base Architecture</li>
-	                  </ul>
-	                  </div>
-	                <div className="resume-date text-md-right">
-	                  <span className="text-primary">Jun 2018 - Nov 2018</span>
 	                </div>
 	              </div>
 
