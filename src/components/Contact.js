@@ -27,7 +27,7 @@ class Contact extends Component {
 
 		const { email, message } = this.state.contact;
 
-		const USER_ID = process.env.USER_ID;
+		const USER_ID = "user_CzXVzqgPEB5IMFBm4Uc6Y";
 
 		if(email == '' || message == '')
 		{
