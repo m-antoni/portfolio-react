@@ -24,7 +24,7 @@ class About extends Component {
 			            </p>
 
 			            <p className="lead mb-4 text-white">
-			                <TypeIt options={{ loop: true, pause: 300, speed: 70, strings: [ "Please Hire Me! Thank You"]}}></TypeIt>
+			                <TypeIt options={{ loop: true, pause: 300, speed: 50, strings: [ "Thank You for visiting, Have a nice day"]}}></TypeIt>
 			            </p>
 
 			            <a href="https://drive.google.com/file/d/1DKCWDYCeuknN2W_UqM2kbw9pnuSa6V4Q/view?usp=sharing" target="_blank">
