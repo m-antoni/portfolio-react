@@ -60,13 +60,14 @@ class Contact extends Component {
 			        <div className="w-100">
 						<div className="row">
 							<div className="col-md-8">
-				            	<h2 className="mb-5 wow slideInLeft">Contact</h2>
+				            	<h2 className="mb-5 wow slideInLeft text-secondary">Contact</h2>
 				                <form onSubmit={this.handleOnSubmit}>
 				                    <div className="form-group wow fadeInUp">
 				                        <label><i className="fa fa-envelope"></i> Email</label>
 				                        <input type="email" onChange={this.handleOnChange} value={email} name="email" className="form-control form-control-lg"/>
 				                    </div>
-				                    <div className="form-group wow fadeInUp">
+
+				                    <div className="form-group wow fadeInUp pt-2">
 				                        <label><i className="fa fa-comment-dots"></i> Message</label>
 				                        <textarea onChange={this.handleOnChange} value={message} name="message" className="form-control form-control-lg" rows="4"></textarea>
 				                    </div>
@@ -81,6 +82,8 @@ class Contact extends Component {
 						</div>
 			        </div>
 			    </section>
+
+			    <div></div>
 			</Fragment>
 		)
 	}

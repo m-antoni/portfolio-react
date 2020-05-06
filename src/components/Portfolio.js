@@ -8,7 +8,7 @@ class Portfolio extends Component {
 			<Fragment>
 			    <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
 			        <div className="w-100">
-			            <h2 className="mb-5">Portfolio</h2>
+			            <h2 className="mb-5 text-secondary">Portfolio</h2>
 						<div class="row">
 						    <div class="col-md-6 col-12 mb-4">
 						        <div class="mb-2"><i class="fa fa-code"></i> One Beem (Unofficial)</div>

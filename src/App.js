@@ -1,6 +1,6 @@
 import React , { Fragment } from 'react';
 
-import Navbar from './components/layouts/Navbar';
+import Navbar from './components/Layouts/Navbar';
 import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';

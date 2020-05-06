@@ -6,7 +6,7 @@ class Seminars extends Component {
 			<Fragment>
 				<section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="seminars">
 				    <div className="w-100">
-				        <h2 className="mb-5 wow slideInLeft">Seminars</h2>
+				        <h2 className="mb-5 wow slideInLeft text-secondary">Seminars</h2>
 
 				        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 				            <div className="resume-content wow fadeInUp">
