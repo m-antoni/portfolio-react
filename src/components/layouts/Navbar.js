@@ -42,9 +42,9 @@ class Navbar extends Component {
 		              <li className="nav-item">
 		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#awards">Awards</AnchorLink>
 		              </li>
-		              {/*<li className="nav-item">
+		              {<li className="nav-item">
 		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#contact">Contact</AnchorLink>
-		              </li>*/}
+		              </li>}
 		            </ul>
 		          </div>
 		        </nav>

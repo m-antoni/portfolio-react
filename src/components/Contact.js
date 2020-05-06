@@ -1,7 +1,59 @@
 import React, { Component, Fragment } from 'react';
+import * as emailjs from 'emailjs-com';
+import dotenv from 'dotenv';
+import { ToastSuccess, ToastDanger } from './Utils/_toast';
 
 class Contact extends Component {
+	
+	constructor(props){
+		super(props);
+		this.state = {
+			contact: {
+				email: "",
+				message: ""
+			}
+		}
+	}
+	
+	handleOnChange = e =>{
+	   let contact = this.state.contact;
+	   contact[e.target.name] = e.target.value;
+
+	   this.setState({ contact: { ...contact } });
+	}
+
+	handleOnSubmit = e => {
+		e.preventDefault();
+
+		const { email, message } = this.state.contact;
+
+		const USER_ID = process.env.USER_ID;
+
+		if(email == '' || message == '')
+		{
+			ToastDanger('Email and Mesage is required');
+		}
+		else
+		{
+			let templateParams = {
+				from_name: email,
+				to_name: 'michaelantoni.cs@gmail.com',
+				subject: 'Portfolio',
+				message: message,
+			}
+			
+			emailjs.send('gmail','PORTFOLIO_CONTACT_TEMPLATE', templateParams, USER_ID );
+
+			this.setState({ contact: { email: "", message: ""} });
+
+			ToastSuccess('Thank you! I will get back to you if ');
+		}
+	}
+
 	render() {
+
+		const { email, message } = this.state.contact;
+
 		return (
 			<Fragment>
 			    <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
@@ -9,14 +61,14 @@ class Contact extends Component {
 						<div className="row">
 							<div className="col-md-8">
 				            	<h2 className="mb-5 wow slideInLeft">Contact</h2>
-				                <form>
+				                <form onSubmit={this.handleOnSubmit}>
 				                    <div className="form-group wow fadeInUp">
 				                        <label><i className="fa fa-envelope"></i> Email</label>
-				                        <input type="email" className="form-control form-control-lg" />
+				                        <input type="email" onChange={this.handleOnChange} value={email} name="email" className="form-control form-control-lg"/>
 				                    </div>
 				                    <div className="form-group wow fadeInUp">
 				                        <label><i className="fa fa-comment-dots"></i> Message</label>
-				                        <textarea className="form-control form-control-lg" rows="4"></textarea>
+				                        <textarea onChange={this.handleOnChange} value={message} name="message" className="form-control form-control-lg" rows="4"></textarea>
 				                    </div>
 
 				                    <a>
