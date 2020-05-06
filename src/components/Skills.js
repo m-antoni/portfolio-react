@@ -58,7 +58,7 @@ class Skill extends Component {
 			                    <a href="https://www.mongodb.com/" className="text-secondary" target="_blank"><i className="devicon-mongodb-plain-wordmark colored fa-2x"></i></a>
 			                </li>
 			                <li className="list-inline-item p-2">
-			                    <a href="https://www.mongodb.com/" className="text-secondary" target="_blank"> <i class="devicon-postgresql-plain-wordmark colored fa-2x"></i></a>
+			                    <a href="https://www.postgresql.org/" className="text-secondary" target="_blank"> <i class="devicon-postgresql-plain-wordmark colored fa-2x"></i></a>
 			                </li>
 			                <li className="list-inline-item p-2">
 			                    <a href="https://ubuntu.com/" className="text-secondary" target="_blank"><i className="devicon-ubuntu-plain-wordmark colored fa-2x"></i></a>
