@@ -46,7 +46,7 @@ class Contact extends Component {
 
 			this.setState({ contact: { email: "", message: ""} });
 
-			ToastSuccess('Thank you! I will get back to you if ');
+			ToastSuccess('Thank you! Please wait for my response.');
 		}
 	}
 
