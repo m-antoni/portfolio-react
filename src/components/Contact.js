@@ -28,7 +28,7 @@ function Contact () {
 			}
 			
 			emailjs.send('gmail','PORTFOLIO_CONTACT_TEMPLATE', templateParams, USER_ID );
-			setContact({});
+			setContact({email: "", message: ""});
 			ToastSuccess('Thank you! Please wait for my response.');
 		}
 	}
