@@ -4,10 +4,8 @@ import TypeIt from 'typeit-react';
 function About () {
 	return (
 		<section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-			<div className="w-100">
-				<h1 className="mb-2 wow fadeInDown"><span>Michael</span>&nbsp;
-						<span className="text-primary wow fadeInRight"> Antoni</span>
-						</h1>
+			<div className="w-100">	
+				<h1 className="mb-2 wow fadeInDown"><span>Michael</span>&nbsp; <span className="text-primary wow fadeInRight"> Antoni</span> </h1>
 				<div className="subheadingtop mb-5 wow slideInUp"><i className="fa fa-map-marker"></i> &nbsp;Caloocan City, Philippines
 					<div><i className="fa fa-mobile"></i> &nbsp; 0927-879-8439 &nbsp;|&nbsp; 0939-420-1796</div>
 					<br/>

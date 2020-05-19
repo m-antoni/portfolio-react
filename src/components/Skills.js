@@ -7,7 +7,7 @@ function Skill () {
 			<div className="w-100">
 				<h2 className="mb-5 wow slideInLeft text-secondary">Skills</h2>
 
-				<div className="subheading mb-4 wow zoonIn">Programming Languages &amp; Tools</div>
+				<div className="subheading mb-4 wow zoonIn">Software &amp; Tools</div>
 
 				<ul className="list-inline dev-icons wow fadeInUp">
 					<li className="list-inline-item p-md-2">
