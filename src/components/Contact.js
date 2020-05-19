@@ -4,7 +4,7 @@ import { ToastSuccess, ToastDanger } from './Utils/_toast';
 
 function Contact () {
 
-	const [contact, setContact] = useState({});
+	const [contact, setContact] = useState({email: '', message: ''});
 	
 	const handleOnChange = e => setContact({...contact, [e.target.name]: e.target.value});
 
@@ -14,9 +14,9 @@ function Contact () {
 
 		const USER_ID = `${process.env.REACT_APP_USER_ID}`;
 
-		if(contact.email == null || contact.message == null)
+		if(contact.email == '' || contact.message == '')
 		{
-			ToastDanger('Email and Mesage is required');
+			ToastDanger('Email and message is required');
 		}
 		else
 		{

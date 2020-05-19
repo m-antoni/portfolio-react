@@ -22,28 +22,28 @@ class Navbar extends Component {
 		          <div className="collapse navbar-collapse" id="navbarSupportedContent">
 		            <ul className="navbar-nav">
 		              <li className="nav-item p-0">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#about">About</AnchorLink>
+		                <AnchorLink onClick={this.hideTop} className="nav-link js-scroll-trigger" href="#about">About</AnchorLink>
 		              </li>
 		              <li className="nav-item">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#experience">Experience</AnchorLink>
+		                <AnchorLink onClick={this.hideTop} className="nav-link js-scroll-trigger" href="#experience">Experience</AnchorLink>
 		              </li>
 		              <li className="nav-item">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#education">Education</AnchorLink>
+		                <AnchorLink onClick={this.hideTop} className="nav-link js-scroll-trigger" href="#education">Education</AnchorLink>
 		              </li>
 		              <li className="nav-item">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#skills">Skills</AnchorLink>
+		                <AnchorLink onClick={this.hideTop} className="nav-link js-scroll-trigger" href="#skills">Skills</AnchorLink>
 		              </li>
 		              <li className="nav-item">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</AnchorLink>
+		                <AnchorLink onClick={this.hideTop} className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</AnchorLink>
 		              </li>
 		              <li className="nav-item">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#seminars">Seminars</AnchorLink>
+		                <AnchorLink onClick={this.hideTop} className="nav-link js-scroll-trigger" href="#seminars">Seminars</AnchorLink>
 		              </li>
 		              <li className="nav-item">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#awards">Awards</AnchorLink>
+		                <AnchorLink onClick={this.hideTop} className="nav-link js-scroll-trigger" href="#awards">Awards</AnchorLink>
 		              </li>
 		              {<li className="nav-item">
-		                <AnchorLink onClick={this.hideTop}className="nav-link js-scroll-trigger" href="#contact">Contact</AnchorLink>
+		                <AnchorLink onClick={this.hideTop} className="nav-link js-scroll-trigger" href="#contact">Contact</AnchorLink>
 		              </li>}
 		            </ul>
 		          </div>

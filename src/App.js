@@ -1,4 +1,5 @@
 import React , { Fragment } from 'react';
+import 'csshake/dist/csshake.css';
 
 import Navbar from './components/Layouts/Navbar';
 import About from './components/About';

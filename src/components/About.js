@@ -9,7 +9,7 @@ function About () {
 						<span className="text-primary wow fadeInRight"> Antoni</span>
 						</h1>
 				<div className="subheadingtop mb-5 wow slideInUp"><i className="fa fa-map-marker"></i> &nbsp;Caloocan City, Philippines
-					<div><i className="fa fa-mobile"></i> &nbsp; 0927-879-8439 |&nbsp; 0939-420-1796</div>
+					<div><i className="fa fa-mobile"></i> &nbsp; 0927-879-8439 &nbsp;|&nbsp; 0939-420-1796</div>
 					<br/>
 					<div><i className="fa fa-envelope"></i>&nbsp;<a href="mailto:codehive2018@gmail.com" className="text-primary"> michaelantoni.cs@gmail.com</a></div>
 					<div><i className="fab fa-github"></i>&nbsp;<a href="https://www.github.com/m-antoni" className="text-primary" target="_blank"> www.github.com/m-antoni</a></div>
