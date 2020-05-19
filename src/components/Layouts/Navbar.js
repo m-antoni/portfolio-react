@@ -13,7 +13,7 @@ function Navbar () {
 				</a>
 			</span>
 			<span className="d-none d-lg-block">
-				<img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt=""/>
+				<img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://lh3.googleusercontent.com/mRQFAlsq_DPVLBTPJRwgwDCJW_T-CtPKzh2I0mD3EkqeqwCZzkoJCSh59JXUvg7n5AP2O4Hyna59apXoCK5S9f42pS2rdXVkqUFC7bgijQP3ooEpfwACOn3jfDEeM95j5O9VRLEA=w2400" alt="profile_img"/>
 			</span>
 			</a>
 			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
