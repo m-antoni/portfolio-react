@@ -36,10 +36,7 @@ function Skill () {
 					</li>
 					<li className="list-inline-item p-md-2">
 						<a href="https://bitbucket.org/" className="text-secondary shake-slow" target="_blank"><i class="devicon-bitbucket-plain-wordmark colored fa-2x"></i></a>
-					</li>
-					<li className="list-inline-item p-md-2">
-						<a href="https://trello.com/" className="text-secondary shake-slow" target="_blank"><i class="devicon-trello-plain colored fa-2x"></i></a>
-					</li>
+					</li>	
 					<li className="list-inline-item p-md-2">
 						<a href="https://www.php.net/manual/en/" className="text-secondary shake-slow" target="_blank"><i className="devicon-php-plain fa-2x"></i></a>
 					</li>
@@ -59,9 +56,6 @@ function Skill () {
 
 					<li className="list-inline-item p-md-2">
 						<a href="https://www.mongodb.com/" className="text-secondary shake-slow" target="_blank"><i className="devicon-mongodb-plain-wordmark colored fa-2x"></i></a>
-					</li>
-					<li className="list-inline-item p-md-2">
-						<a href="https://www.postgresql.org/" className="text-secondary shake-slow" target="_blank"> <i class="devicon-postgresql-plain-wordmark colored fa-2x"></i></a>
 					</li>
 					<li className="list-inline-item p-md-2">
 						<a href="https://ubuntu.com/" className="text-secondary shake-slow" target="_blank"><i className="devicon-ubuntu-plain-wordmark colored fa-2x"></i></a>
