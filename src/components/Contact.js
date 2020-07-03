@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import * as emailjs from 'emailjs-com';
 import { ToastSuccess, ToastDanger } from './Utils/_toast';
 import Swal from 'sweetalert2';
-// import '@sweetalert2/theme-dark/dark.css';
 
 function Contact () {
 
@@ -29,14 +28,19 @@ function Contact () {
 				message: message,
 			}
 			
-			emailjs.send('gmail','PORTFOLIO_CONTACT_TEMPLATE', templateParams, USER_ID );
-			setContact({email: "", message: ""});
-			// ToastSuccess('Thank you! Please wait for my response.');
-			Swal.fire(
-				'Success!',
-				'Message has been sent, <br/> Please wait for my response.',
-				'success'
-			  )
+			emailjs.send('gmail','PORTFOLIO_CONTACT_TEMPLATE', templateParams, USER_ID )
+				.then(res => {
+					if(res.status == 200)
+					{
+						Swal.fire('Success!','Message has been sent, <br/> Please wait for my response.','success');
+						setContact({email: '', message: ''});
+					}
+				}, (err) => {
+					Swal.fire('Error!','Something went wrong.','error');
+					console.log(`Error: ${err}`);
+					setContact({email: '', message: ''});
+				})
+
 		}
 	}
 
