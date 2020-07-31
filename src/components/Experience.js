@@ -13,9 +13,8 @@ function Experience () {
 						<ul>
 							<li>Full-Stack Engineering</li>
 							<li>Create Reliable and Maintainable applications</li>
-							<li>Linux Base Operating System</li>
-							<li>Follow best practices for efficient and readable codes</li>
-							<li>Develop and implement the design features and functionality requirements.</li>
+							<li>Follow best practices in software development</li>
+							<li>Develop and implement the design features and functionality.</li>
 						</ul>
 					</div>
 					<div className="resume-date text-md-right">
@@ -25,12 +24,12 @@ function Experience () {
 
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
-						<h3 className="mb-0">PHP Developer</h3>
+						<h3 className="mb-0">Web Developer</h3>
 						<div className="subheading mb-3">DC Multinational Group of Companies</div>
 						<ul>
-							<li>Manage CPanel</li>
-							<li>Implements API Services</li>
-							<li>Regular upgrades and bug fixing of old projects</li>
+							<li>Web Design</li>
+							<li>Adding new features and upgrades</li>
+							<li>Testing and Debugging</li>
 						</ul>
 					</div>
 					<div className="resume-date text-md-right">

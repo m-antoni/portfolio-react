@@ -16,7 +16,8 @@ function About () {
 				</div>
 
 				<p className="lead mb-5 wow fadeInRight text-justify">
-					Writing a well designed efficient code by using best practices in software development. collaborate with developers that aim to bring the best application that can be use by companies and entrepreneurs around the world.
+					Writing a well designed efficient code by using best practices in software development. collaborate with 
+					developers that aim to bring the best application that can be use around the world.
 				</p>
 
 				<p className="lead mb-4 text-white">

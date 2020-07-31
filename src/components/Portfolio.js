@@ -1,13 +1,29 @@
-import React from 'react';
+import React, { useState, Fragment } from 'react';
 import '@fancyapps/fancybox/dist/jquery.fancybox.css';
 import '@fancyapps/fancybox/dist/jquery.fancybox';
 
 function Portfolio () {
+
+	const [show, setShow] = useState(false);
+
 	return (
 		<section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
 			<div className="w-100">
 				<h2 className="mb-5 text-secondary">Portfolio</h2>
 				<div class="row">
+					<div class="col-md-6 col-12 mb-4">
+						<div class="mb-2"><i class="fa fa-code"></i> Weather App <a className="text-info" href="https://michael-weatherapp.netlify.app/" target="_blank">&nbsp; Visit Here</a></div>
+						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/00.png">
+							<img src="assets/img/portfolio/weatherapp/00.png" class="img-fluid hoverEffect wow zoomIn"/>
+						</a>
+						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/01.png"></a>
+						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/02.png"></a>
+						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/03.png"></a>
+						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/04.png"></a>
+						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/05.png"></a>
+						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/06.png"></a>
+					</div>
+
 					<div class="col-md-6 col-12 mb-4">
 						<div class="mb-2"><i class="fa fa-code"></i> One Beem (Unofficial)</div>
 						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/00.jpg">
@@ -88,59 +104,81 @@ function Portfolio () {
 					</div>
 
 					<div class="col-md-6 col-12 mb-4">
-							<div class="mb-2"><i class="fa fa-code"></i> Laptop Xpert (website)</div>
-							<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/1.jpg">
-								<img src="assets/img/portfolio/laptopxpert/1.jpg" class="img-fluid hoverEffect"/>
-							</a>
+						<div class="mb-2"><i class="fa fa-code"></i> Laptop Xpert (website)</div>
+						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/1.jpg">
+							<img src="assets/img/portfolio/laptopxpert/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+						</a>
 
-							<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/2.jpg"></a>
-							<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/3.jpg"></a>
-							<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/4.jpg"></a>
-							<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/5.jpg"></a>
-							<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/6.jpg"></a>
-							<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/7.jpg"></a>
-							<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/8.jpg"></a>
-							<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/9.jpg"></a>
-							<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/10.jpg"></a>
-						</div>
+						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/2.jpg"></a>
+						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/3.jpg"></a>
+						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/4.jpg"></a>
+						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/5.jpg"></a>
+						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/6.jpg"></a>
+						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/7.jpg"></a>
+						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/8.jpg"></a>
+						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/9.jpg"></a>
+						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/10.jpg"></a>
+					</div>
 
-						<div class="col-md-6 col-12 mb-4">
-							<div class="mb-2"><i class="fa fa-code"></i> YAMAHA (unofficial website)</div>
-							<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/1.jpg">
-								<img src="assets/img/portfolio/yamaha/1.jpg" class="img-fluid hoverEffect"/>
-							</a>
+					{
+						show ? 
+						<Fragment>
+							<div class="col-md-6 col-12 mb-4">
+								<div class="mb-2"><i class="fa fa-code"></i> YAMAHA (unofficial website)</div>
+								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/1.jpg">
+									<img src="assets/img/portfolio/yamaha/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+								</a>
 
-							<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/2.jpg"></a>
-							<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/3.jpg"></a>
-							<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/4.jpg"></a>
-							<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/5.jpg"></a>
-						</div>
+								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/2.jpg"></a>
+								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/3.jpg"></a>
+								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/4.jpg"></a>
+								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/5.jpg"></a>
+							</div>
 
-						<div class="col-md-6 col-12 mb-4">
-							<div class="mb-2"><i class="fa fa-code"></i> Interactive Learning System </div>
-							<a data-fancybox="ils" href="assets/img/portfolio/ils/1.jpg">
-								<img src="assets/img/portfolio/ils/1.jpg" class="img-fluid hoverEffect"/>
-							</a>
+							<div class="col-md-6 col-12 mb-4">
+								<div class="mb-2"><i class="fa fa-code"></i> Interactive Learning System </div>
+								<a data-fancybox="ils" href="assets/img/portfolio/ils/1.jpg">
+									<img src="assets/img/portfolio/ils/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+								</a>
 
-							<a data-fancybox="ils" href="assets/img/portfolio/ils/2.jpg"></a>
-							<a data-fancybox="ils" href="assets/img/portfolio/ils/3.jpg"></a>
-							<a data-fancybox="ils" href="assets/img/portfolio/ils/4.jpg"></a>
-							<a data-fancybox="ils" href="assets/img/portfolio/ils/5.jpg"></a>
-							<a data-fancybox="ils" href="assets/img/portfolio/ils/6.jpg"></a>
-							<a data-fancybox="ils" href="assets/img/portfolio/ils/7.jpg"></a>
-							<a data-fancybox="ils" href="assets/img/portfolio/ils/8.jpg"></a>
-						</div>
+								<a data-fancybox="ils" href="assets/img/portfolio/ils/2.jpg"></a>
+								<a data-fancybox="ils" href="assets/img/portfolio/ils/3.jpg"></a>
+								<a data-fancybox="ils" href="assets/img/portfolio/ils/4.jpg"></a>
+								<a data-fancybox="ils" href="assets/img/portfolio/ils/5.jpg"></a>
+								<a data-fancybox="ils" href="assets/img/portfolio/ils/6.jpg"></a>
+								<a data-fancybox="ils" href="assets/img/portfolio/ils/7.jpg"></a>
+								<a data-fancybox="ils" href="assets/img/portfolio/ils/8.jpg"></a>
+							</div>
 
-						<div class="col-md-6 col-12 mb-4">
-							<div class="mb-2"><i class="fa fa-code"></i> Basic Cashier System</div>
-							<a data-fancybox="enroll" href="assets/img/portfolio/enroll/1.jpg">
-								<img src="assets/img/portfolio/enroll/1.jpg" class="img-fluid hoverEffect"/>
-							</a>
+							<div class="col-md-6 col-12 mb-4">
+								<div class="mb-2"><i class="fa fa-code"></i> Basic Cashier System</div>
+								<a data-fancybox="enroll" href="assets/img/portfolio/enroll/1.jpg">
+									<img src="assets/img/portfolio/enroll/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+								</a>
 
-							<a data-fancybox="enroll" href="assets/img/portfolio/enroll/2.jpg"></a>
-							<a data-fancybox="enroll" href="assets/img/portfolio/enroll/3.jpg"></a>
-							<a data-fancybox="enroll" href="assets/img/portfolio/enroll/4.jpg"></a>
-						</div>
+								<a data-fancybox="enroll" href="assets/img/portfolio/enroll/2.jpg"></a>
+								<a data-fancybox="enroll" href="assets/img/portfolio/enroll/3.jpg"></a>
+								<a data-fancybox="enroll" href="assets/img/portfolio/enroll/4.jpg"></a>
+							</div>
+						</Fragment>
+						: null
+					}
+
+					<div className="col-12"></div>
+					{
+						!show ?
+							<a className="mx-auto">
+								<button onClick={() => setShow(!show)} className="btn btn--border text-white downloadcv my-4 wow fadeInUp" data-wow-delay="1s">
+									<span> <i className="fa fa-angle-double-down"></i> &nbsp; SHOW MORE OF PORTFOLIO &nbsp; <i className="fa fa-angle-double-down"></i> </span>
+								</button>
+							</a> 
+						:
+						<a className="mx-auto">
+							<button onClick={() => setShow(!show)} className="btn btn--border text-white downloadcv my-4 wow fadeInUp" data-wow-delay="1s">
+								<span> <i className="fa fa-angle-double-up"></i> &nbsp; SHOW LESS OF PORTFOLIO &nbsp; <i className="fa fa-angle-double-up"></i> </span>
+							</button>
+						</a>
+					}
 				</div>
 			</div>
 		</section>
