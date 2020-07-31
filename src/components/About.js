@@ -12,7 +12,7 @@ function About () {
 					<div><i className="fa fa-envelope"></i>&nbsp;<a href="mailto:codehive2018@gmail.com" className="text-primary"> michaelantoni.cs@gmail.com</a></div>
 					<div><i className="fab fa-github"></i>&nbsp;<a href="https://www.github.com/m-antoni" className="text-primary" target="_blank"> www.github.com/m-antoni</a></div>
 					<div><i className="fab fa-linkedin-in"></i>&nbsp;<a href="https://linkedin.com/in/michaelantoni-cs" className="text-primary" target="_blank"> linkedin.com/in/michaelantoni-cs</a></div>
-					<div><i className="fa fa-cog fa-spin"></i>&nbsp; Freelance: <span className="text-white animated infinite flash">Available</span></div>
+					{/* <div><i className="fa fa-cog fa-spin"></i>&nbsp; Freelance: <span className="text-white animated infinite flash">Available</span></div> */}
 				</div>
 
 				<p className="lead mb-5 wow fadeInRight text-justify">

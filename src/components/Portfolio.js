@@ -24,27 +24,6 @@ function Portfolio () {
 						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/06.png"></a>
 					</div>
 
-					<div class="col-md-6 col-12 mb-4">
-						<div class="mb-2"><i class="fa fa-code"></i> One Beem (Unofficial)</div>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/00.jpg">
-							<img src="assets/img/portfolio/onebeem/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
-						</a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/1.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/2.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/3.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/4.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/5.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/6.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/7.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/8.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/9.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/10.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/11.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/12.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/13.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/14.jpg"></a>
-						<a data-fancybox="onebeem" href="assets/img/portfolio/onebeem/15.jpg"></a>
-					</div>
 
 					<div class="col-md-6 col-12 mb-4">
 						<div class="mb-2"><i class="fa fa-code"></i> Attendance Monitoring System using QR Code</div>
@@ -120,21 +99,21 @@ function Portfolio () {
 						<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/10.jpg"></a>
 					</div>
 
+					<div class="col-md-6 col-12 mb-4">
+						<div class="mb-2"><i class="fa fa-code"></i> YAMAHA (unofficial website)</div>
+						<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/1.jpg">
+							<img src="assets/img/portfolio/yamaha/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+						</a>
+
+						<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/2.jpg"></a>
+						<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/3.jpg"></a>
+						<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/4.jpg"></a>
+						<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/5.jpg"></a>
+					</div>
+
 					{
 						show ? 
 						<Fragment>
-							<div class="col-md-6 col-12 mb-4">
-								<div class="mb-2"><i class="fa fa-code"></i> YAMAHA (unofficial website)</div>
-								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/1.jpg">
-									<img src="assets/img/portfolio/yamaha/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
-								</a>
-
-								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/2.jpg"></a>
-								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/3.jpg"></a>
-								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/4.jpg"></a>
-								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/5.jpg"></a>
-							</div>
-
 							<div class="col-md-6 col-12 mb-4">
 								<div class="mb-2"><i class="fa fa-code"></i> Interactive Learning System </div>
 								<a data-fancybox="ils" href="assets/img/portfolio/ils/1.jpg">
