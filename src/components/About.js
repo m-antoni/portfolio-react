@@ -15,7 +15,7 @@ function About () {
 					{/* <div><i className="fa fa-cog fa-spin"></i>&nbsp; Freelance: <span className="text-white animated infinite flash">Available</span></div> */}
 				</div>
 
-				<p className="lead mb-5 wow fadeInRight text-justify">
+				<p className="subheadingtop lead mb-5 wow fadeInRight">
 					"Create the best application that is secured, efficient and maintanable by using the best practices in software development. collaborate with 
 					developers that aim to bring the best application built to improve people's lives."
 				</p>
