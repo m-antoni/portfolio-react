@@ -16,10 +16,9 @@ function About () {
 				</div>
 
 				<p className="lead mb-5 wow fadeInRight text-justify">
-					Writing a well designed efficient code by using best practices in software development. collaborate with 
-					developers that aim to bring the best application that can be use around the world.
+					"Create the best application that is secured, efficient and maintanable by using the best practices in software development. collaborate with 
+					developers that aim to bring the best application built to improve people's lives."
 				</p>
-
 				<p className="lead mb-4 text-white">
 					<TypeIt options={{ loop: true, pause: 300, speed: 50, strings: [ "Thank You for visiting, Have a nice day"]}}></TypeIt>
 				</p>
