@@ -24,14 +24,6 @@ function Awards () {
 
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
-						<h3 className="mb-0">Outstanding Student Award</h3>
-						<div className="subheading">St. Clare College of Caloocan</div>
-						<div>2019</div>
-					</div>
-				</div>
-
-				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-					<div className="resume-content wow fadeInUp">
 						<h3 className="mb-0">Best Web Design Award</h3>
 						<div className="subheading">St. Clare College of Caloocan</div>
 						<div>2017</div>
