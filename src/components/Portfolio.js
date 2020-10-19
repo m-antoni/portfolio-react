@@ -12,7 +12,10 @@ function Portfolio () {
 				<h2 className="mb-5 text-secondary">Portfolio</h2>
 				<div class="row">
 					<div class="col-md-6 col-12 mb-4">
-						<div class="mb-2"><i class="fa fa-code"></i> Weather App <a className="text-info" href="https://michael-weatherapp.netlify.app/" target="_blank">&nbsp; Visit Here</a></div>
+						<div class="mb-2"><i class="fa fa-code"></i> Weather App 
+							<a className="text-primary" href="https://michael-weatherapp.netlify.app/" target="_blank"> &nbsp;Visit Here </a> |
+							<a className="text-primary" href="https://github.com/m-antoni/weather-app" target="_blank">&nbsp;Source Code</a>
+						</div>
 						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/00.png">
 							<img src="assets/img/portfolio/weatherapp/00.png" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -26,7 +29,9 @@ function Portfolio () {
 
 
 					<div class="col-md-6 col-12 mb-4">
-						<div class="mb-2"><i class="fa fa-code"></i> Attendance Monitoring System using QR Code</div>
+						<div class="mb-2"><i class="fa fa-code"></i> Attendance Monitoring System using QR Code | 
+							<a className="text-primary" href="https://github.com/m-antoni/login" target="_blank">&nbsp;Source Code</a>
+						</div>
 						<a data-fancybox="login" href="assets/img/portfolio/loginqrcode/1.jpg">
 							<img src="assets/img/portfolio/loginqrcode/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -48,7 +53,9 @@ function Portfolio () {
 					</div>
 
 					<div class="col-md-6 col-12 mb-4">
-						<div class="mb-2"><i class="fa fa-code"></i> Reservation System with QR Code Integration</div>
+						<div class="mb-2"><i class="fa fa-code"></i> Reservation System with QR Code Integration |
+							<a className="text-primary" href="https://github.com/m-antoni/reservation_qrcode" target="_blank">&nbsp;Source Code</a>
+						</div>
 						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/1.jpg">
 							<img src="assets/img/portfolio/balagbag/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -67,7 +74,9 @@ function Portfolio () {
 					</div>
 
 					<div class="col-md-6 col-12 mb-4">
-						<div class="mb-2"><i class="fa fa-code"></i> Hyperion (E-commerce)</div>
+						<div class="mb-2"><i class="fa fa-code"></i> Hyperion (E-commerce) | 
+							<a className="text-primary" href="https://github.com/m-antoni/hyperion" target="_blank">&nbsp;Source Code</a>
+						</div>
 						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/1.jpg">
 							<img src="assets/img/portfolio/hyperion/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
