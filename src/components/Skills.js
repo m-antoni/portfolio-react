@@ -26,9 +26,6 @@ function Skill () {
 						<a href="https://jquery.com/" className="text-secondary shake-slow" target="_blank"><i className="devicon-jquery-plain-wordmark colored fa-2x"></i></a>
 					</li>
 					<li className="list-inline-item p-md-2">
-						<a href="https://getbootstrap.com/" className="text-secondary shake-slow" target="_blank"><i class="devicon-bootstrap-plain-wordmark colored fa-2x"></i></a>
-					</li>
-					<li className="list-inline-item p-md-2">
 						<a href="https://git-scm.com/" className="text-secondary shake-slow" target="_blank"><i class="devicon-git-plain colored fa-2x"></i></a>
 					</li>
 					<li className="list-inline-item p-md-2">
@@ -39,7 +36,7 @@ function Skill () {
 						<a href="https://www.php.net/manual/en/" className="text-secondary shake-slow" target="_blank"><i className="devicon-php-plain fa-2x"></i></a>
 					</li>
 					<li className="list-inline-item p-md-2">
-						<a href="https://laravel.com/" className="text-secondar shake-slow" target="_blank"><i className="devicon-laravel-plain-wordmark colored fa-2x"></i></a>
+						<a href="https://laravel.com/" className="text-secondar shake-slow" target="_blank"><i className="devicon-laravel-plain-wordmark fa-2x text-secondary"></i></a>
 					</li>
 					<li className="list-inline-item p-md-2">
 						<a href="https://reactjs.org/" className="text-secondary shake-slow" target="_blank"><i className="devicon-react-original-wordmark colored fa-2x"></i></a>
