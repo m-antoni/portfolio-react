@@ -33,7 +33,7 @@ function Contact () {
 				.then(res => {
 					if(res.status == 200)
 					{
-						Swal.fire('Thank You!','I\'ll be in touch as soon as possible.','success');
+						Swal.fire('Thank You!','I\'ll be in touch soon.','success');
 						setContact({email: '', message: ''});
 						setLoading(false);
 					}
