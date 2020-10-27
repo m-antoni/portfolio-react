@@ -27,9 +27,9 @@ function Experience () {
 						<h3 className="mb-0">Web Developer</h3>
 						<div className="subheading mb-3">DC Multinational Group of Companies</div>
 						<ul>
-							<li>Web Design</li>
-							<li>Adding new features and upgrades</li>
-							<li>Testing and Debugging</li>
+							<li>Back-end Engineering (Laravel)</li>
+							<li>Adding new features and functionality</li>
+							<li>Bug Fixing | QA</li>
 						</ul>
 					</div>
 					<div className="resume-date text-md-right">

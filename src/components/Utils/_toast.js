@@ -11,7 +11,7 @@ export const ToastSuccess = message =>
         iconColor: "rgb(0, 255, 184)",
         theme: "dark",
         progressBarColor: "rgb(0, 255, 184)",
-        position: "topCenter",
+        position: "topRight",
         transitionIn: "bounceInLeft",
         transitionOut: "fadeOut",
         timeout: 4000
@@ -28,7 +28,9 @@ export const ToastDanger = message =>
                 title: "Error",
                 icon: "ico-error",
                 message: message[i],
-                position: "topCenter",
+                position: "topRight",
+                transitionIn: "bounceInLeft",
+                transitionOut: "fadeOut",
             });
         }
     }
@@ -38,7 +40,9 @@ export const ToastDanger = message =>
             title: "Error",
             icon: "ico-error",
             message: message,
-            position: "topCenter",
+            position: "topRight",
+            transitionIn: "bounceInLeft",
+            transitionOut: "fadeOut",
         });
     }
 

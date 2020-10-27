@@ -18,7 +18,7 @@ function Contact () {
 
 		if(contact.email == '' || contact.message == '')
 		{
-			ToastDanger('Email and message is required');
+			ToastDanger('Email and Message is required');
 		}
 		else
 		{
@@ -33,7 +33,7 @@ function Contact () {
 				.then(res => {
 					if(res.status == 200)
 					{
-						Swal.fire('Success!','Message has been sent, <br/> Please wait for my response.','success');
+						Swal.fire('Thank You!','I\'ll be in touch as soon as possible.','success');
 						setContact({email: '', message: ''});
 						setLoading(false);
 					}
