@@ -7,9 +7,34 @@ function Skill () {
 			<div className="w-100">
 				<h2 className="mb-5 wow slideInLeft text-secondary">Skills</h2>
 
-				<div className="subheading mb-4 wow zoonIn">Technologies &amp; Tools</div>
 
-				<ul className="list-inline dev-icons wow fadeInUp">
+				<ul class="list-inline">
+					<li class="list-inline-item"><img src="assets/img/svg/html.svg" height="60"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/css3.svg" height="60"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/javascript.svg" height="80"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/nodejs2.svg" height="60"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/php.svg" height="50"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/mysql.svg" height="50"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/firebase.svg" height="80"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/mongodb2.svg" height="80"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/react.svg" height="80"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/redux.svg" height="80"/></li>
+				</ul>
+
+				<ul className="list-inline mt-2">
+					<li class="list-inline-item"><img className="mr-2" src="assets/img/svg/npm.svg" height="30"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/laravel2.svg" height="60"/></li>
+					<li class="list-inline-item"><img className="mx-2" src="assets/img/svg/lumen.svg" height="60"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/ubuntu.svg" height="60"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/linux.svg" height="60"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/windows.svg" height="60"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/git.svg" height="80"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/github2.svg" height="60"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/bitbucket.svg" height="60"/></li>
+					<li class="list-inline-item"><img src="assets/img/svg/photoshop.svg" height="60"/></li>
+				</ul>
+
+				{/* <ul className="list-inline dev-icons wow fadeInUp">
 					<li className="list-inline-item p-md-2">
 						<a href="https://www.photoshop.com/en" className="text-secondary shake-slow" target="_blank"><i class="devicon-photoshop-line colored fa-2x"></i></a>
 					</li>
@@ -55,7 +80,7 @@ function Skill () {
 					<li className="list-inline-item p-md-2">
 						<a href="https://ubuntu.com/" className="text-secondary shake-slow" target="_blank"><i className="devicon-linux-plain fa-2x"></i></a>
 					</li>
-				</ul>
+				</ul> */}
 			</div>
 		</section>
 	)
