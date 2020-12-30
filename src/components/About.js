@@ -1,5 +1,6 @@
 import React from 'react';
 import TypeIt from 'typeit-react';
+import Switch from "react-switch";
 
 function About () {
 	return (

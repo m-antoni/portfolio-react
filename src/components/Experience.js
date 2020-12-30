@@ -39,7 +39,7 @@ function Experience () {
 
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
-						<h3 className="mb-0">Head Technician</h3>
+						<h3 className="mb-0">Computer Technician</h3>
 						<div className="subheading mb-3">Computer World</div>
 						<ul>
 							<li>Software and Hardware installation for desktop and laptop computers</li>

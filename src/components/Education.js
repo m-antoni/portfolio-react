@@ -21,7 +21,6 @@ function Education () {
 						<div className="resume-content wow fadeInUp">
 							<h3 className="mb-0">STI College Fairview</h3>
 							<div className="subheading mb-2">Diploma in Information Technology</div>
-							<div>2 Year Course</div>
 						</div>
 						<div className="resume-date text-md-right">
 							<span className="text-primary">2005 - 2007</span>
@@ -31,8 +30,7 @@ function Education () {
 					<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 						<div className="resume-content wow fadeInUp">
 							<h3 className="mb-0">Bagong Silang High School</h3>
-							<div className="subheading mb-2"></div>
-							<div>Secondary Education</div>
+							<div className="subheading mb-2">Secondary Education</div>
 						</div>
 						<div className="resume-date text-md-right">
 							<span className="text-primary">2001 - 2005</span>
