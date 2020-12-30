@@ -67,13 +67,13 @@ function Contact () {
 								:
 								<Fragment>
 									<div className="form-group wow fadeInUp">
-										<label><i className="fa fa-envelope"></i> Email</label>
-										<input type="email" onChange={handleOnChange} value={email} name="email" className="form-control form-control-lg"/>
+										<label className="f-21"><i className="fa fa-envelope"></i> Email</label>
+										<input type="email" onChange={handleOnChange} value={email} name="email" className="form-control form-control-lg input-c"/>
 									</div>
 
 									<div className="form-group wow fadeInUp pt-2">
-										<label><i className="fa fa-comment-dots"></i> Message</label>
-										<textarea onChange={handleOnChange} value={message} name="message" className="form-control form-control-lg" rows="4"></textarea>
+										<label className="f-21"><i className="fa fa-comment-dots"></i> Message</label>
+										<textarea onChange={handleOnChange} value={message} name="message" className="form-control form-control-lg input-c" rows="4"></textarea>
 									</div>
 
 									<a>

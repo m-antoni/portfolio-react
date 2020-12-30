@@ -1,4 +1,4 @@
-#sideMobile {
+/* #sideMobile {
   display:none;
 }
 
@@ -10,6 +10,13 @@
     #sideTop{
     	display: none;
     }
+} */
+
+
+.input-c {
+  border-radius: 5px !important;
 }
 
-
+.f-21{
+  font-size: 21px !important;
+}

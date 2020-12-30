@@ -7,31 +7,29 @@ function Skill () {
 			<div className="w-100">
 				<h2 className="mb-5 wow slideInLeft text-secondary">Skills</h2>
 
-
-				<ul class="list-inline">
-					<li class="list-inline-item"><img src="assets/img/svg/html.svg" height="60"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/css3.svg" height="60"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/javascript.svg" height="80"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/nodejs2.svg" height="60"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/php.svg" height="50"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/mysql.svg" height="50"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/firebase.svg" height="80"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/mongodb2.svg" height="80"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/react.svg" height="80"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/redux.svg" height="80"/></li>
+				<ul class="list-inline wow fadeInDown">
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/photoshop.svg" height="60"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/html.svg" height="60"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/css3.svg" height="60"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/javascript.svg" height="80"/></li>
+					<li class="list-inline-item"><img className="shake-slow mr-1" src="assets/img/svg/nodejs2.svg" height="60"/></li>
+					<li class="list-inline-item"><img className="shake-slow mr-1" src="assets/img/svg/php.svg" height="50"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/mysql.svg" height="50"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/firebase.svg" height="80"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/mongodb2.svg" height="80"/></li>
 				</ul>
 
-				<ul className="list-inline mt-2">
-					<li class="list-inline-item"><img className="mr-2" src="assets/img/svg/npm.svg" height="30"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/laravel2.svg" height="60"/></li>
-					<li class="list-inline-item"><img className="mx-2" src="assets/img/svg/lumen.svg" height="60"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/ubuntu.svg" height="60"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/linux.svg" height="60"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/windows.svg" height="60"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/git.svg" height="80"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/github2.svg" height="60"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/bitbucket.svg" height="60"/></li>
-					<li class="list-inline-item"><img src="assets/img/svg/photoshop.svg" height="60"/></li>
+				<ul className="list-inline mt-2 wow fadeInUp">
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/react.svg" height="80"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/redux.svg" height="80"/></li>
+					<li class="list-inline-item"><img className="mr-2 shake-slow" src="assets/img/svg/npm.svg" height="30"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/laravel2.svg" height="60"/></li>
+					<li class="list-inline-item"><img className="mx-2 shake-slow" src="assets/img/svg/lumen.svg" height="60"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/ubuntu.svg" height="60"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/linux.svg" height="60"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/windows.svg" height="60"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/git.svg" height="80"/></li>
+					<li class="list-inline-item"><img className="shake-slow" src="assets/img/svg/bitbucket.png" height="60"/></li>
 				</ul>
 
 				{/* <ul className="list-inline dev-icons wow fadeInUp">
