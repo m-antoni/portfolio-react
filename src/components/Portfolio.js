@@ -12,6 +12,26 @@ function Portfolio () {
 				<h2 className="mb-5 wow slideInLeft text-secondary">Portfolio</h2>
 				<div class="row">
 					<div class="col-md-6 col-12 mb-4">
+						<div> <strong>Simple Task Manager </strong>
+							<small>	
+								<a className="text-primary" href="https://michaelantoni-tm.herokuapp.com/" target="_blank"> &nbsp;Visit Here </a> |
+								<a className="text-primary" href="https://github.com/m-antoni/task-manager" target="_blank">&nbsp;Source Code</a>
+							</small>
+						</div>
+						<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
+							<span className="text-white"> Node, Express, MongoDB, JWT, Heroku</span>
+						</div>
+						<a data-fancybox="tm" href="assets/img/portfolio/tm/00.jpg">
+							<img src="assets/img/portfolio/tm/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+						</a>
+						<a data-fancybox="tm" href="assets/img/portfolio/tm/01.jpg"></a>
+						<a data-fancybox="tm" href="assets/img/portfolio/tm/02.jpg"></a>
+						<a data-fancybox="tm" href="assets/img/portfolio/tm/03.jpg"></a>
+						<a data-fancybox="tm" href="assets/img/portfolio/tm/04.jpg"></a>
+						<a data-fancybox="tm" href="assets/img/portfolio/tm/05.jpg"></a>
+					</div>
+
+					<div class="col-md-6 col-12 mb-4">
 						<div> <strong>Quiz App </strong>
 							<small>	
 								<a className="text-primary" href="https://michael-quiz-app.netlify.app/" target="_blank"> &nbsp;Visit Here </a> |
@@ -123,25 +143,24 @@ function Portfolio () {
 						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/9.jpg"></a>
 					</div>
 
-					<div class="col-md-6 col-12 mb-4">
-						<div> <strong>YAMAHA (Unofficial)</strong></div>
-						<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-							<span className="text-white"> HTML, CSS, Bootstrap, jquery</span>
-						</div>
-						<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/1.jpg">
-							<img src="assets/img/portfolio/yamaha/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
-						</a>
-
-						<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/2.jpg"></a>
-						<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/3.jpg"></a>
-						<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/4.jpg"></a>
-						<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/5.jpg"></a>
-					</div>
-
-
 					{
 						show ? 
 						<Fragment>
+							<div class="col-md-6 col-12 mb-4">
+								<div> <strong>YAMAHA (Unofficial)</strong></div>
+								<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
+									<span className="text-white"> HTML, CSS, Bootstrap, jquery</span>
+								</div>
+								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/1.jpg">
+									<img src="assets/img/portfolio/yamaha/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+								</a>
+
+								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/2.jpg"></a>
+								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/3.jpg"></a>
+								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/4.jpg"></a>
+								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/5.jpg"></a>
+							</div>
+
 							<div class="col-md-6 col-12 mb-4">
 								<div> <strong>Laptop Xpert</strong> |
 								<small><a className="text-primary" href="https://github.com/m-antoni/laptop" target="_blank">&nbsp;Source Code</a></small>
