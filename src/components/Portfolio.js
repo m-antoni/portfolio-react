@@ -12,15 +12,17 @@ function Portfolio () {
 				<h2 className="mb-5 wow slideInLeft text-secondary">Portfolio</h2>
 				<div class="row">
 					<div class="col-md-6 col-12 mb-4">
-						<div> <strong>Simple Task Manager </strong>
-							<small>	
-								<a className="text-primary" href="https://michaelantoni-tm.herokuapp.com/" target="_blank"> &nbsp;Visit Here </a> |
-								<a className="text-primary" href="https://github.com/m-antoni/task-manager" target="_blank">&nbsp;Source Code</a>
-							</small>
+						<div className="port-container"> 
+							<div className="port-title port-text mr-3">
+								<a href="https://michaelantoni-tm.herokuapp.com/" target="_blank"> 
+									<i className="fa fa-link"></i> Simple Task Manager 
+								</a>
+							</div>
+							<div className="port-links port-text">
+								<a href="https://github.com/m-antoni/task-manager" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+							</div>
 						</div>
-						<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-							<span className="text-white"> Node, Express, MongoDB, JWT, Heroku</span>
-						</div>
+						<div className="port-tech">Technologies: Node, Express, MongoDB, JWT, Heroku</div>
 						<a data-fancybox="tm" href="assets/img/portfolio/tm/00.jpg">
 							<img src="assets/img/portfolio/tm/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -32,15 +34,17 @@ function Portfolio () {
 					</div>
 
 					<div class="col-md-6 col-12 mb-4">
-						<div> <strong>Quiz App </strong>
-							<small>	
-								<a className="text-primary" href="https://michael-quiz-app.netlify.app/" target="_blank"> &nbsp;Visit Here </a> |
-								<a className="text-primary" href="https://github.com/m-antoni/quiz-app" target="_blank">&nbsp;Source Code</a>
-							</small>
+						<div className="port-container"> 
+							<div className="port-title port-text mr-3">
+								<a href="https://michael-quiz-app.netlify.app/" target="_blank"> 
+									<i className="fa fa-link"></i> Quiz App 
+								</a>
+							</div>
+							<div className="port-links port-text">
+								<a href="https://github.com/m-antoni/quiz-app" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+							</div>
 						</div>
-						<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-							<span className="text-white"> React, Redux, Firebase, Netlify</span>
-						</div>
+						<div className="port-tech">Technologies: React, Redux, Firebase, Netlify</div>
 						<a data-fancybox="quizapp" href="assets/img/portfolio/quizapp/00.jpg">
 							<img src="assets/img/portfolio/quizapp/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -53,15 +57,17 @@ function Portfolio () {
 					</div>
 
 					<div class="col-md-6 col-12 mb-4">
-						<div> <strong>Weather App </strong>
-							<small>
-								<a className="text-primary" href="https://michael-weatherapp.netlify.app/" target="_blank"> &nbsp;Visit Here </a> |
-								<a className="text-primary" href="https://github.com/m-antoni/weather-app" target="_blank">&nbsp;Source Code</a>
-							</small>
+						<div className="port-container"> 
+							<div className="port-title port-text mr-3">
+								<a href="https://michael-weatherapp.netlify.app/" target="_blank"> 
+									<i className="fa fa-link"></i> Weather App  
+								</a>
+							</div>
+							<div className="port-links port-text">
+								<a href="https://github.com/m-antoni/weather-app" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+							</div>
 						</div>
-						<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-							<span className="text-white"> React Hooks, Context API, Netlify</span>
-						</div>
+						<div className="port-tech">Technologies: React Hooks, Context API, Netlify</div>
 						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/00.jpg">
 							<img src="assets/img/portfolio/weatherapp/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -74,12 +80,16 @@ function Portfolio () {
 					</div>
 
 					<div class="col-md-6 col-12 mb-4">
-						<div> <strong>Attendance Monitoring System</strong> | 
-							<small><a className="text-primary" href="https://github.com/m-antoni/login" target="_blank">&nbsp;Source Code</a></small>
+						<div className="port-container"> 
+							<div className="port-title port-text mr-3">
+								<a href="#portfolio">Attendance Monitoring System</a>
+							</div>
+							<div className="port-links port-text">
+								<a href="https://github.com/m-antoni/login" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+							</div>
 						</div>
-						<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-							<span className="text-white"> Laravel, Vue, MySQL</span>
-						</div>
+						<div className="port-tech">Technologies: Laravel, Vue, MySQL</div>
+
 						<a data-fancybox="login" href="assets/img/portfolio/loginqrcode/00.jpg">
 							<img src="assets/img/portfolio/loginqrcode/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -101,12 +111,15 @@ function Portfolio () {
 					</div>
 
 					<div class="col-md-6 col-12 mb-4">
-						<div> <strong>Reservation System with QR Code Integration</strong> |
-							<small><a className="text-primary" href="https://github.com/m-antoni/reservation_qrcode" target="_blank">&nbsp;Source Code</a></small>
+						<div className="port-container"> 
+							<div className="port-title port-text mr-3">
+								<a href="#portfolio">Reservation System with QR Code Integration</a>
+							</div>
+							<div className="port-links port-text">
+								<a href="https://github.com/m-antoni/reservation_qrcode" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+							</div>
 						</div>
-						<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-							<span className="text-white"> Laravel, Vue, MySQL</span>
-						</div>
+						<div className="port-tech">Technologies: Laravel, Vue, MySQL</div>
 						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/1.jpg">
 							<img src="assets/img/portfolio/balagbag/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -124,12 +137,16 @@ function Portfolio () {
 					</div>
 
 					<div class="col-md-6 col-12 mb-4">
-						<div> <strong>E-Commerce (Hyperion)</strong> | 
-							<small><a className="text-primary" href="https://github.com/m-antoni/hyperion" target="_blank">&nbsp;Source Code</a></small>
+						<div className="port-container"> 
+							<div className="port-title port-text mr-3">
+								<a href="#portfolio">E-Commerce (Hyperion)</a>
+							</div>
+							<div className="port-links port-text">
+								<a href="https://github.com/m-antoni/hyperion" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+							</div>
 						</div>
-						<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-							<span className="text-white"> PHP, MySQL</span>
-						</div>
+						<div className="port-tech">Technologies: JS, PHP, MySQL</div>
+
 						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/1.jpg">
 							<img src="assets/img/portfolio/hyperion/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -147,14 +164,15 @@ function Portfolio () {
 						show ? 
 						<Fragment>
 							<div class="col-md-6 col-12 mb-4">
-								<div> <strong>YAMAHA (Unofficial)</strong></div>
-								<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-									<span className="text-white"> HTML, CSS, Bootstrap, jquery</span>
+								<div className="port-container"> 
+									<div className="port-title port-text mr-3">
+										<a href="#portfolio">YAMAHA (Unofficial)</a>
+									</div>
 								</div>
+								<div className="port-tech">Technologies: HTML, CSS, Bootstrap, jquery</div>
 								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/1.jpg">
 									<img src="assets/img/portfolio/yamaha/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 								</a>
-
 								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/2.jpg"></a>
 								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/3.jpg"></a>
 								<a data-fancybox="yamaha" href="assets/img/portfolio/yamaha/4.jpg"></a>
@@ -162,12 +180,15 @@ function Portfolio () {
 							</div>
 
 							<div class="col-md-6 col-12 mb-4">
-								<div> <strong>Laptop Xpert</strong> |
-								<small><a className="text-primary" href="https://github.com/m-antoni/laptop" target="_blank">&nbsp;Source Code</a></small>
+								<div className="port-container"> 
+									<div className="port-title port-text mr-3">
+										<a href="#portfolio">E-Commerce (Hyperion)</a>
+									</div>
+									<div className="port-links port-text">
+										<a href="https://github.com/m-antoni/laptop" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+									</div>
 								</div>
-								<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-									<span className="text-white"> HTML, CSS, Bootstrap, jquery</span>
-								</div>
+								<div className="port-tech">Technologies: HTML, CSS, Bootstrap, jquery</div>
 								<a data-fancybox="laptopxpert" href="assets/img/portfolio/laptopxpert/1.jpg">
 									<img src="assets/img/portfolio/laptopxpert/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 								</a>
@@ -183,12 +204,15 @@ function Portfolio () {
 							</div>
 
 							<div class="col-md-6 col-12 mb-4">
-								<div> <strong>Interactive Learning System</strong> |
-									<small><a className="text-primary" href="https://github.com/m-antoni/learning_system" target="_blank">&nbsp; Source Code</a></small>
+								<div className="port-container"> 
+									<div className="port-title port-text mr-3">
+										<a href="#portfolio">Interactive Learning System</a>
+									</div>
+									<div className="port-links port-text">
+										<a href="https://github.com/m-antoni/learning_system" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+									</div>
 								</div>
-								<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-									<span className="text-white"> Visual Fox Pro</span>
-								</div>
+								<div className="port-tech">Technologies: Visual Fox Pro</div>
 								<a data-fancybox="ils" href="assets/img/portfolio/ils/1.jpg">
 									<img src="assets/img/portfolio/ils/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 								</a>
@@ -202,12 +226,15 @@ function Portfolio () {
 							</div>
 
 							<div class="col-md-6 col-12 mb-4">
-								<div> <strong>Enrollment System</strong> |
-									<small><a className="text-primary" href="https://github.com/m-antoni/stark" target="_blank">&nbsp; Source Code</a></small>
+								<div className="port-container"> 
+									<div className="port-title port-text mr-3">
+										<a href="#portfolio">Enrollment System (Stark)</a>
+									</div>
+									<div className="port-links port-text">
+										<a href="https://github.com/m-antoni/stark" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+									</div>
 								</div>
-								<div class="mb-2"><i class="fa fa-cog fa-spin"></i> Technologies:
-									<span className="text-white"> Visual Fox Pro</span>
-								</div>
+								<div className="port-tech">Technologies: Visual Fox Pro</div>
 								<a data-fancybox="enroll" href="assets/img/portfolio/enroll/1.jpg">
 									<img src="assets/img/portfolio/enroll/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 								</a>
