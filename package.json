@@ -9,7 +9,6 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "csshake": "^1.5.3",
-    "devicon": "^2.2.0",
     "dotenv": "^8.2.0",
     "emailjs-com": "^2.4.1",
     "izitoast": "^1.4.0",

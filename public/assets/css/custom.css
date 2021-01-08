@@ -1,17 +1,3 @@
-/* #sideMobile {
-  display:none;
-}
-
-@media only screen and (min-width: 768px) {
-    #sideMobile {
-      display:block;
-    }
-
-    #sideTop{
-    	display: none;
-    }
-} */
-
 
 .input-c {
   border-radius: 5px !important;
@@ -20,3 +6,46 @@
 .f-21{
   font-size: 21px !important;
 }
+
+.skill-container a{
+  display: inline-block;
+  margin: 10px;
+}
+
+.skill-container a img{
+  height: 80px;
+}
+
+
+@media only screen and (max-width : 1224px) {
+  
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .skill-container a img{
+    height: 60px;
+  }  
+}
+
+@media only screen and (max-device-width : 767px) {
+
+  .skill-container a{
+    margin: 15px;
+  }
+
+  .skill-container a img{
+    height: 60px;
+  }  
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .skill-container a img{
+    height: 50px;
+  }  
+}
+
+
+
+
