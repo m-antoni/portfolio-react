@@ -10,6 +10,7 @@ import Awards from './components/Awards';
 import Seminars from './components/Seminars';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import SwitchIcon from './components/SwitchIcon';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Navbar/>
 
         <div className="container-fluid p-0">
-
+          {/* <SwitchIcon/> */}
+    
           <About/>
 
           <hr className="m-0" />
