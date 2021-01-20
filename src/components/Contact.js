@@ -11,25 +11,21 @@ function Contact () {
 	const handleOnChange = e => setContact({...contact, [e.target.name]: e.target.value});
 
 	const handleOnSubmit = e => {
-		
 		e.preventDefault();
 
-		const USER_ID = `${process.env.REACT_APP_USER_ID}`;
-
-		if(contact.email == '' || contact.message == '')
+		if(email == '' || message == '')
 		{
 			ToastDanger('Email and Message is required');
 		}
 		else
 		{
 			let templateParams = {
-				from_name: email,
-				to_name: 'michaelantoni.cs@gmail.com',
-				subject: 'Portfolio',
-				message: message,
+				email,
+				message,
 			}
+
 			setLoading(true);
-			emailjs.send('gmail','PORTFOLIO_CONTACT_TEMPLATE', templateParams, USER_ID )
+			emailjs.send('gmail','portfolio', templateParams,`${process.env.REACT_APP_USER_ID}`)
 				.then(res => {
 					if(res.status == 200)
 					{
