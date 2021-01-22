@@ -21,10 +21,8 @@ function Contact () {
 			const res = await axios.get(`https://timezoneapi.io/api/ip/?token=${process.env.REACT_APP_TIMEZONE_API_KEY}`);
 
 			const astroLog = {
-				country: `${res.data.data.country}, ${res.data.data.country_code}, Capital: ${res.data.data.timezone.capital}`,
-				currency: `${res.data.data.timezone.currency_name}, Code: ${res.data.data.timezone.currency_alpha_code}`,
-				timezone: `${res.data.data.timezone.id}`,
-				location: res.data.data.location,
+				country: `${res.data.data.country}, ${res.data.data.country_code}, ${res.data.data.timezone.capital}`,
+				timezone: res.data.data.timezone.id,
 				ip: res.data.data.ip,
 				date: res.data.data.datetime.date_time_txt,
 				user_agent: navigator.userAgent,
@@ -70,7 +68,7 @@ function Contact () {
 	const { email, message } = contact;
 
 	return (
-		<section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
+		<section className="resume-section p-3 p-lg-5 d-flex align-items-center mb-2" id="contact">
 			<div className="w-100">
 				<div className="row">
 					<div className="col-md-8">
