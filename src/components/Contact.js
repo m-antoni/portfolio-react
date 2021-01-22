@@ -1,49 +1,69 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import * as emailjs from 'emailjs-com';
 import { ToastSuccess, ToastDanger } from './Utils/_toast';
 import Swal from 'sweetalert2';
+import axios from 'axios';
 
 function Contact () {
 
 	const [contact, setContact] = useState({email: '', message: ''});
 	const [loading, setLoading] = useState(false);
-	
+	const [log, setLog] = useState({});
+
+	useEffect(() => {
+		getUserLog();	
+	},[])
+
 	const handleOnChange = e => setContact({...contact, [e.target.name]: e.target.value});
 
-	const handleOnSubmit = e => {
-		
+	const getUserLog = async () => {
+		try{
+			const res = await axios.get(`https://timezoneapi.io/api/ip/?token=${process.env.REACT_APP_TIMEZONE_API_KEY}`);
+
+			const astroLog = {
+				country: `${res.data.data.country}, ${res.data.data.country_code}, Capital: ${res.data.data.timezone.capital}`,
+				currency: `${res.data.data.timezone.currency_name}, Code: ${res.data.data.timezone.currency_alpha_code}`,
+				timezone: `${res.data.data.timezone.id}`,
+				location: res.data.data.location,
+				ip: res.data.data.ip,
+				date: res.data.data.datetime.date_time_txt,
+				user_agent: navigator.userAgent,
+			};
+
+			setLog(astroLog);
+
+		}catch(err){
+			console.log(err)
+		}
+	}
+
+	
+	const handleOnSubmit = async (e) => {
 		e.preventDefault();
 
-		const USER_ID = `${process.env.REACT_APP_USER_ID}`;
+		if(email == '' || message == '') return ToastDanger('Email and Message is required');
 
-		if(contact.email == '' || contact.message == '')
-		{
-			ToastDanger('Email and Message is required');
-		}
-		else
-		{
-			let templateParams = {
-				from_name: email,
-				to_name: 'michaelantoni.cs@gmail.com',
-				subject: 'Portfolio',
-				message: message,
-			}
+		try{
 			setLoading(true);
-			emailjs.send('gmail','PORTFOLIO_CONTACT_TEMPLATE', templateParams, USER_ID )
-				.then(res => {
-					if(res.status == 200)
-					{
-						Swal.fire('Thank You!','I\'ll be in touch soon.','success');
-						setContact({email: '', message: ''});
-						setLoading(false);
-					}
-				}, (err) => {
-					Swal.fire('Error!','Something went wrong.','error');
-					console.log(`Error: ${err}`);
-					setContact({email: '', message: ''});
-					setLoading(false);
-				})
+			await getUserLog();
 
+			let templateParams = {
+				email,
+				message,
+				log
+			}
+
+			await emailjs.send('gmail','portfolio', templateParams,`${process.env.REACT_APP_USER_ID}`);
+
+			Swal.fire('Thank You!','I\'ll be in touch soon.','success');
+			setContact({email: '', message: ''});
+			setLoading(false);
+
+		}catch(err)	{
+			Swal.fire('Error!','Something went wrong.','error');
+			console.log(`Error: ${err}`);
+			setContact({email: '', message: ''});
+			setLoading(false);
 		}
 	}
 
