@@ -14,15 +14,35 @@ function Portfolio () {
 					<div class="col-md-6 col-12 mb-4">
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
+								<a href="https://michael-quotegenerator.netlify.app" target="_blank"> 
+									<small><i className="fa fa-link"></i></small> Quote Generator 
+								</a>
+							</div>
+							<div className="port-links port-text">
+								<a href="https://github.com/m-antoni/quote-generator" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+							</div>
+						</div>
+						<div className="port-tech">Technologies: React, TypeScript</div>
+						<a data-fancybox="quote" href="assets/img/portfolio/quote/00.jpg">
+							<img src="assets/img/portfolio/quote/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+						</a>
+						<a data-fancybox="quote" href="assets/img/portfolio/quote/01.jpg"></a>
+						<a data-fancybox="quote" href="assets/img/portfolio/quote/02.jpg"></a>
+						<a data-fancybox="quote" href="assets/img/portfolio/quote/03.jpg"></a>
+					</div>
+
+					<div class="col-md-6 col-12 mb-4">
+						<div className="port-container"> 
+							<div className="port-title port-text mr-3">
 								<a href="https://michaelantoni-tm.herokuapp.com/" target="_blank"> 
-									<i className="fa fa-link"></i> Simple Task Manager 
+									<small><i className="fa fa-link"></i></small> Simple Task Manager 
 								</a>
 							</div>
 							<div className="port-links port-text">
 								<a href="https://github.com/m-antoni/task-manager" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
 							</div>
 						</div>
-						<div className="port-tech">Technologies: Node, Express, MongoDB, JWT, Heroku</div>
+						<div className="port-tech">Technologies: Node, Express, MongoDB & JWT</div>
 						<a data-fancybox="tm" href="assets/img/portfolio/tm/00.jpg">
 							<img src="assets/img/portfolio/tm/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -37,14 +57,14 @@ function Portfolio () {
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
 								<a href="https://michael-quiz-app.netlify.app/" target="_blank"> 
-									<i className="fa fa-link"></i> Quiz App 
+									<small><i className="fa fa-link"></i></small> Quiz App 
 								</a>
 							</div>
 							<div className="port-links port-text">
 								<a href="https://github.com/m-antoni/quiz-app" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
 							</div>
 						</div>
-						<div className="port-tech">Technologies: React, Redux, Firebase, Netlify</div>
+						<div className="port-tech">Technologies: React, Redux & Firebase</div>
 						<a data-fancybox="quizapp" href="assets/img/portfolio/quizapp/00.jpg">
 							<img src="assets/img/portfolio/quizapp/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -60,14 +80,14 @@ function Portfolio () {
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
 								<a href="https://michael-weatherapp.netlify.app/" target="_blank"> 
-									<i className="fa fa-link"></i> Weather App  
+									<small><i className="fa fa-link"></i></small> Weather App  
 								</a>
 							</div>
 							<div className="port-links port-text">
 								<a href="https://github.com/m-antoni/weather-app" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
 							</div>
 						</div>
-						<div className="port-tech">Technologies: React Hooks, Context API, Netlify</div>
+						<div className="port-tech">Technologies: React Hooks, Context Api</div>
 						<a data-fancybox="weatherapp" href="assets/img/portfolio/weatherapp/00.jpg">
 							<img src="assets/img/portfolio/weatherapp/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -136,33 +156,33 @@ function Portfolio () {
 						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/12.jpg"></a>
 					</div>
 
-					<div class="col-md-6 col-12 mb-4">
-						<div className="port-container"> 
-							<div className="port-title port-text mr-3">
-								<a href="#portfolio">E-Commerce (Hyperion)</a>
-							</div>
-							<div className="port-links port-text">
-								<a href="https://github.com/m-antoni/hyperion" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
-							</div>
-						</div>
-						<div className="port-tech">Technologies: JS, PHP, MySQL</div>
-
-						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/1.jpg">
-							<img src="assets/img/portfolio/hyperion/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
-						</a>
-						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/2.jpg"></a>
-						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/3.jpg"></a>
-						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/4.jpg"></a>
-						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/5.jpg"></a>
-						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/6.jpg"></a>
-						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/7.jpg"></a>
-						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/8.jpg"></a>
-						<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/9.jpg"></a>
-					</div>
-
 					{
 						show ? 
 						<Fragment>
+							<div class="col-md-6 col-12 mb-4">
+								<div className="port-container"> 
+									<div className="port-title port-text mr-3">
+										<a href="#portfolio">E-Commerce (Hyperion)</a>
+									</div>
+									<div className="port-links port-text">
+										<a href="https://github.com/m-antoni/hyperion" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+									</div>
+								</div>
+								<div className="port-tech">Technologies: JS, PHP, MySQL</div>
+
+								<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/1.jpg">
+									<img src="assets/img/portfolio/hyperion/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+								</a>
+								<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/2.jpg"></a>
+								<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/3.jpg"></a>
+								<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/4.jpg"></a>
+								<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/5.jpg"></a>
+								<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/6.jpg"></a>
+								<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/7.jpg"></a>
+								<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/8.jpg"></a>
+								<a data-fancybox="hyperion" href="assets/img/portfolio/hyperion/9.jpg"></a>
+							</div>
+
 							<div class="col-md-6 col-12 mb-4">
 								<div className="port-container"> 
 									<div className="port-title port-text mr-3">

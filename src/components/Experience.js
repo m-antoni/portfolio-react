@@ -9,12 +9,11 @@ function Experience () {
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
 						<h3 className="mb-0">Full Stack Web Developer</h3>
-						<div className="subheading mb-3"><a className="text-primary" href="https://bluehive.com.ph/" target="_blank">Bluehive</a></div>
+						<div className="subheading mb-3"><a className="text-primary" href="https://bluehive.com.ph/" target="_blank"><small><i className="fa fa-link"></i></small> Bluehive</a></div>
 						<ul>
 							<li>Full-Stack Engineering</li>
 							<li>Create Reliable and Maintainable applications</li>
 							<li>Follow best practices in software development</li>
-							<li>Develop and implement the design features and functionality.</li>
 						</ul>
 					</div>
 					<div className="resume-date text-md-right">
@@ -29,7 +28,6 @@ function Experience () {
 						<ul>
 							<li>Back-end Engineering (Laravel)</li>
 							<li>Adding new features and functionality</li>
-							<li>Bug Fixing | QA</li>
 						</ul>
 					</div>
 					<div className="resume-date text-md-right">
@@ -44,7 +42,6 @@ function Experience () {
 						<ul>
 							<li>Software and Hardware installation for desktop and laptop computers</li>
 							<li>Troubleshoot system failures and data restoration</li>
-							<li>Perform regular upgrades to ensure systems remain updated</li>
 						</ul>
 					</div>
 					<div className="resume-date text-md-right">
