@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import * as emailjs from 'emailjs-com';
-import { ToastSuccess, ToastDanger } from './Utils/_toast';
+import { ToastDanger } from './Utils/_toast';
 import Swal from 'sweetalert2';
 import axios from 'axios';
 

@@ -8,6 +8,7 @@ function Skill () {
 		{ url: 'https://www.w3schools.com/html/default.asp', svg: 'html.svg' },
 		{ url: 'https://www.w3schools.com/css/default.asp', svg: 'css.svg' },
 		{ url: 'https://sass-lang.com/', svg: 'sass.svg'},
+		{ url: 'https://tailwindcss.com/', svg: 'tailwind.svg'},
 		{ url: 'https://www.w3schools.com/js/DEFAULT.asp', svg: 'js.svg' },
 		{ url: 'https://jquery.com/', svg: 'jq.svg' },
 		{ url: 'https://getbootstrap.com/', svg: 'bs.svg' },
