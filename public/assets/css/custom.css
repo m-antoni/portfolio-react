@@ -43,15 +43,17 @@ a:hover, a:focus, a:active {
   transform: translate3d(0px, -5px, 0px);
 }
 
-.port-container .port-text:nth-child(1){
-  color: #ffff;
+.port-title {
+  color: #6ddccf;
+  font-weight: 600;
 }
 
 .port-container .port-text {
+  color: #ffff;
   display: inline-block;
 }
 
-.port-container .port-text:nth-child(1) a{
+.port-container .port-text a{
   font-weight: 500;
   color: #ffff
 }

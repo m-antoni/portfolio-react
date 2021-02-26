@@ -14,8 +14,11 @@ function Portfolio () {
 					<div class="col-md-6 col-12 mb-4">
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
+								<span className="port-title">Quote Generator:</span>
+							</div>
+							<div className="port-title port-text mr-3">
 								<a href="https://michael-quotegenerator.netlify.app" target="_blank"> 
-									<small><i className="fa fa-link"></i></small> Quote Generator 
+									<small><i className="fa fa-link"></i></small> Demo Here
 								</a>
 							</div>
 							<div className="port-links port-text">
@@ -34,8 +37,11 @@ function Portfolio () {
 					<div class="col-md-6 col-12 mb-4">
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
+								<span className="port-title">Simple Task Manager :</span>
+							</div>
+							<div className="port-title port-text mr-3">
 								<a href="https://michaelantoni-tm.herokuapp.com/" target="_blank"> 
-									<small><i className="fa fa-link"></i></small> Simple Task Manager 
+									<small><i className="fa fa-link"></i></small> Demo Here
 								</a>
 							</div>
 							<div className="port-links port-text">
@@ -56,8 +62,11 @@ function Portfolio () {
 					<div class="col-md-6 col-12 mb-4">
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
+								<span className="port-title">Quiz App :</span>
+							</div>
+							<div className="port-title port-text mr-3">
 								<a href="https://michael-quiz-app.netlify.app/" target="_blank"> 
-									<small><i className="fa fa-link"></i></small> Quiz App 
+									<small><i className="fa fa-link"></i></small> Demo Here
 								</a>
 							</div>
 							<div className="port-links port-text">
@@ -79,8 +88,11 @@ function Portfolio () {
 					<div class="col-md-6 col-12 mb-4">
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
+								<span className="port-title">Weather App:</span>
+							</div>
+							<div className="port-title port-text mr-3">
 								<a href="https://michael-weatherapp.netlify.app/" target="_blank"> 
-									<small><i className="fa fa-link"></i></small> Weather App  
+									<small><i className="fa fa-link"></i></small> Demo Here  
 								</a>
 							</div>
 							<div className="port-links port-text">
@@ -102,7 +114,7 @@ function Portfolio () {
 					<div class="col-md-6 col-12 mb-4">
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
-								<a href="#portfolio">Attendance Monitoring System</a>
+								<span className="port-title">Attendance Monitoring System:</span>
 							</div>
 							<div className="port-links port-text">
 								<a href="https://github.com/m-antoni/login" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
@@ -133,7 +145,7 @@ function Portfolio () {
 					<div class="col-md-6 col-12 mb-4">
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
-								<a href="#portfolio">Reservation System with QR Code Integration</a>
+								<span className="port-title">Reservation System with QR Code Integration:</span>
 							</div>
 							<div className="port-links port-text">
 								<a href="https://github.com/m-antoni/reservation_qrcode" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
@@ -162,7 +174,7 @@ function Portfolio () {
 							<div class="col-md-6 col-12 mb-4">
 								<div className="port-container"> 
 									<div className="port-title port-text mr-3">
-										<a href="#portfolio">E-Commerce (Hyperion)</a>
+										<span className="port-title">Hyperion:</span>
 									</div>
 									<div className="port-links port-text">
 										<a href="https://github.com/m-antoni/hyperion" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
@@ -186,7 +198,7 @@ function Portfolio () {
 							<div class="col-md-6 col-12 mb-4">
 								<div className="port-container"> 
 									<div className="port-title port-text mr-3">
-										<a href="#portfolio">YAMAHA (Unofficial)</a>
+										<span className="port-title">YAMAHA (Unofficial):</span>
 									</div>
 								</div>
 								<div className="port-tech">Technologies: HTML, CSS, Bootstrap, jquery</div>
@@ -202,7 +214,7 @@ function Portfolio () {
 							<div class="col-md-6 col-12 mb-4">
 								<div className="port-container"> 
 									<div className="port-title port-text mr-3">
-										<a href="#portfolio">E-Commerce (Hyperion)</a>
+										<span className="port-title">LaptopXpert:</span>
 									</div>
 									<div className="port-links port-text">
 										<a href="https://github.com/m-antoni/laptop" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
@@ -226,7 +238,7 @@ function Portfolio () {
 							<div class="col-md-6 col-12 mb-4">
 								<div className="port-container"> 
 									<div className="port-title port-text mr-3">
-										<a href="#portfolio">Interactive Learning System</a>
+										<span className="port-title">Learning System:</span>
 									</div>
 									<div className="port-links port-text">
 										<a href="https://github.com/m-antoni/learning_system" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
@@ -248,7 +260,7 @@ function Portfolio () {
 							<div class="col-md-6 col-12 mb-4">
 								<div className="port-container"> 
 									<div className="port-title port-text mr-3">
-										<a href="#portfolio">Enrollment System (Stark)</a>
+										<span className="port-title">Enrollment System:</span>
 									</div>
 									<div className="port-links port-text">
 										<a href="https://github.com/m-antoni/stark" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
