@@ -14,6 +14,35 @@ function Portfolio () {
 					<div class="col-md-6 col-12 mb-4">
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
+								<span className="port-title">E-Commerce:</span>
+							</div>
+							<div className="port-title port-text mr-3">
+								<a href="https://michael-ecommerce-mern.netlify.app/" target="_blank"> 
+									<small><i className="fa fa-link"></i></small> Demo Here
+								</a>
+							</div>
+							<div className="port-links port-text">
+								<a href="https://github.com/m-antoni/e-commerce-react" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+							</div>
+						</div>
+						<div className="port-tech">Technologies: MERN Stack, Redux, JWT, TailwindCSS, Paypal api</div>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/00.jpg">
+							<img src="assets/img/portfolio/eshop/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+						</a>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/01.jpg"></a>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/02.jpg"></a>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/03.jpg"></a>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/04.jpg"></a>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/05.jpg"></a>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/06.jpg"></a>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/07.jpg"></a>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/08.jpg"></a>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/09.jpg"></a>
+						<a data-fancybox="eshop" href="assets/img/portfolio/eshop/10.jpg"></a>
+					</div>
+					<div class="col-md-6 col-12 mb-4">
+						<div className="port-container"> 
+							<div className="port-title port-text mr-3">
 								<span className="port-title">Quote Generator:</span>
 							</div>
 							<div className="port-title port-text mr-3">
@@ -25,7 +54,7 @@ function Portfolio () {
 								<a href="https://github.com/m-antoni/quote-generator" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
 							</div>
 						</div>
-						<div className="port-tech">Technologies: React, TypeScript</div>
+						<div className="port-tech">Technologies: React, TypeScript, Sass</div>
 						<a data-fancybox="quote" href="assets/img/portfolio/quote/00.jpg">
 							<img src="assets/img/portfolio/quote/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -48,7 +77,7 @@ function Portfolio () {
 								<a href="https://github.com/m-antoni/task-manager" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
 							</div>
 						</div>
-						<div className="port-tech">Technologies: Node, Express, MongoDB & JWT</div>
+						<div className="port-tech">Technologies: Node, Express, MongoDB, JWT</div>
 						<a data-fancybox="tm" href="assets/img/portfolio/tm/00.jpg">
 							<img src="assets/img/portfolio/tm/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -73,7 +102,7 @@ function Portfolio () {
 								<a href="https://github.com/m-antoni/quiz-app" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
 							</div>
 						</div>
-						<div className="port-tech">Technologies: React, Redux & Firebase</div>
+						<div className="port-tech">Technologies: React, Redux, Firebase</div>
 						<a data-fancybox="quizapp" href="assets/img/portfolio/quizapp/00.jpg">
 							<img src="assets/img/portfolio/quizapp/00.jpg" class="img-fluid hoverEffect wow zoomIn"/>
 						</a>
@@ -142,35 +171,35 @@ function Portfolio () {
 						<a data-fancybox="login" href="assets/img/portfolio/loginqrcode/15.jpg"></a>
 					</div>
 
-					<div class="col-md-6 col-12 mb-4">
-						<div className="port-container"> 
-							<div className="port-title port-text mr-3">
-								<span className="port-title">Reservation System with QR Code Integration:</span>
-							</div>
-							<div className="port-links port-text">
-								<a href="https://github.com/m-antoni/reservation_qrcode" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
-							</div>
-						</div>
-						<div className="port-tech">Technologies: Laravel, Vue, MySQL</div>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/1.jpg">
-							<img src="assets/img/portfolio/balagbag/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
-						</a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/2.jpg"></a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/3.jpg"></a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/4.jpg"></a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/5.jpg"></a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/6.jpg"></a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/7.jpg"></a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/8.jpg"></a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/9.jpg"></a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/10.jpg"></a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/11.jpg"></a>
-						<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/12.jpg"></a>
-					</div>
-
 					{
 						show ? 
 						<Fragment>
+							<div class="col-md-6 col-12 mb-4">
+								<div className="port-container"> 
+									<div className="port-title port-text mr-3">
+										<span className="port-title">Reservation System with QR Code Integration:</span>
+									</div>
+									<div className="port-links port-text">
+										<a href="https://github.com/m-antoni/reservation_qrcode" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+									</div>
+								</div>
+								<div className="port-tech">Technologies: Laravel, Vue, MySQL</div>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/1.jpg">
+									<img src="assets/img/portfolio/balagbag/1.jpg" class="img-fluid hoverEffect wow zoomIn"/>
+								</a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/2.jpg"></a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/3.jpg"></a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/4.jpg"></a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/5.jpg"></a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/6.jpg"></a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/7.jpg"></a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/8.jpg"></a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/9.jpg"></a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/10.jpg"></a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/11.jpg"></a>
+								<a data-fancybox="reservation" href="assets/img/portfolio/balagbag/12.jpg"></a>
+							</div>
+
 							<div class="col-md-6 col-12 mb-4">
 								<div className="port-container"> 
 									<div className="port-title port-text mr-3">
