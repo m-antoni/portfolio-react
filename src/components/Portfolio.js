@@ -22,7 +22,8 @@ function Portfolio () {
 								</a>
 							</div>
 							<div className="port-links port-text">
-								<a href="https://github.com/m-antoni/e-commerce-react" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
+								<a href="https://github.com/m-antoni/e-commerce-react" target="_blank"><i className="fab fa-github-alt"></i> Frontend</a>
+								<a href="https://github.com/m-antoni/e-commerce-mern-api" className="pl-2" target="_blank"><i className="fab fa-github-alt"></i> Backend</a>
 							</div>
 						</div>
 						<div className="port-tech">Technologies: MERN Stack, Redux, JWT, TailwindCSS, Paypal api</div>

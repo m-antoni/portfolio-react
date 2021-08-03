@@ -4,11 +4,9 @@ function Skill () {
 
 	const iconsData = [
 		{ url: 'https://www.adobe.com/sea/products/photoshop.html', svg: 'ps.svg'},
-		{ url: 'https://code.visualstudio.com/', svg: 'vscode.svg' },
 		{ url: 'https://www.w3schools.com/html/default.asp', svg: 'html.svg' },
 		{ url: 'https://www.w3schools.com/css/default.asp', svg: 'css.svg' },
 		{ url: 'https://sass-lang.com/', svg: 'sass.svg'},
-		{ url: 'https://tailwindcss.com/', svg: 'tailwind.svg'},
 		{ url: 'https://www.w3schools.com/js/DEFAULT.asp', svg: 'js.svg' },
 		{ url: 'https://jquery.com/', svg: 'jq.svg' },
 		{ url: 'https://getbootstrap.com/', svg: 'bs.svg' },
@@ -26,7 +24,6 @@ function Skill () {
 		{ url: 'https://ubuntu.com/', svg: 'ubuntu.svg' },
 		{ url: 'https://www.microsoft.com/en-ph/windows', svg: 'windows.svg' },
 		{ url: 'https://git-scm.com/', svg: 'git.svg'},
-		{ url: 'https://github.com/', svg: 'github.svg'},
 		{ url: 'https://bitbucket.org/', svg: 'bb.svg'},
 	]
 

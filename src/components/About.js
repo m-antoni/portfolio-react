@@ -24,8 +24,8 @@ function About () {
 				<p className="lead mb-4 text-white">
 					<TypeIt options={{ loop: true, pause: 300, speed: 50, strings: [ "Thank You for visiting, Have a nice day"]}}></TypeIt>
 				</p>
-
-				<a href="https://drive.google.com/file/d/1lXvpWWyqV3rHqZJKPQWk0MBh2KuXVHi6/view?usp=sharing" target="_blank">
+				
+				<a href="https://drive.google.com/file/d/1Ro0PgKS2_JVIwZYxZkaTI-PWFcHVP0zU/view?usp=sharing" target="_blank">
 					<button className="btn btn--border text-white wow zoomIn downloadcv mt-2 mr-4" data-wow-delay="1s">
 						<span> <i className="ti-download"></i>DOWNLOAD CV</span>
 					</button>
