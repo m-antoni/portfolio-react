@@ -1,11 +1,12 @@
-.light-mode{
-  background: #ffff !important;
+
+.input-c {
+  border-radius: 3px !important;
 }
 
+.light-name{
+  color: #fdf0d5 !important;
+}
 
-/* .input-c {
-  border-radius: 5px !important;
-} */
 
 .f-21{
   font-size: 21px !important;
@@ -238,6 +239,8 @@ a:hover, a:focus, a:active {
   height: 70px;
 }
 
+
+
 /* SWITCH DARK MODE */
 .s-mode{
     position: fixed;
@@ -260,6 +263,89 @@ a:hover, a:focus, a:active {
 .skill-container a img{
   height: 60px;
 }
+
+
+
+/** Light Mode Styles*/
+.light-mode{
+  background: #fdf0d5 !important;
+}
+
+.light-mode .light-name{
+  color: #243447 !important;
+}
+
+.light-mode .bg-primary {
+  background-color: #171D20 !important;
+}
+
+.light-mode .subheading, 
+.light-mode ul>li, 
+.light-mode .port-tech, 
+.light-mode .subheading>div,
+.light-mode .subheadingtop,
+.light-mode .type-it{
+  color: #243447 !important;
+}
+
+.light-mode .light-header-name, 
+.light-mode .text-secondary, 
+.light-mode .port-title, 
+.light-mode .btn,
+.light-mode label,
+.light-mode .btn--future::after, 
+.light-mode .btn--future::before{
+  color: #073b4c !important;
+}
+
+.light-mode h3, 
+.light-mode .resume-date, 
+.light-mode .port-links>a, 
+.light-mode .port-title>a,
+.light-mode .social-links{
+  color: #118ab2 !important;
+}
+
+.light-mode .port-links>a:hover, .light-mode .port-title>a:hover{
+    color: #42A5F5 !important;
+    border: 2px solid white !important;
+}
+
+.light-mode .btn {
+  font-size: 1.3rem;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #073b4c;
+  outline: none;
+  color: #073b4c;
+  background-color: transparent;
+  white-space: nowrap;
+}
+.light-mode .btn--border::after, .light-mode .btn--border::before,
+.light-mode .btn--border span::after,
+.light-mode .btn--border span::before {
+  content: "";
+  position: absolute;
+  background-color: #073b4c;
+  transition: 0.5s ease;
+}
+
+.light-mode .btn--future::after, .btn--future::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #073b4c;
+  width: calc(100% + 15px);
+  height: 60px;
+  transition: 0.5s ease;
+}
+
+.resume-date{
+  font-weight: 500 !important;
+}
+
+
+
+
 
 
 @media only screen and (max-width : 1224px) {
@@ -304,6 +390,10 @@ a:hover, a:focus, a:active {
     margin-right: 2%;
   }
 }
+
+
+
+
 
 
 

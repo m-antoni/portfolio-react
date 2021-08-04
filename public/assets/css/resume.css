@@ -8,7 +8,6 @@ body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96;
-  /*color: #495057;*/
   background: #171D20;
 }
 
@@ -16,6 +15,7 @@ body {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 #quote blockquote p{
   font-size: 2.5rem;
   color: white;

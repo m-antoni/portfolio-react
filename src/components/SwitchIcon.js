@@ -6,13 +6,9 @@ function SwitchIcon() {
 
     const handleSwitch = () => {
         setChecked(!checked);
-
-        if(checked == false)
-        {
+        if(checked == false){
             document.body.classList.add('light-mode');
-        }
-        else
-        {
+        }else{
             document.body.classList.remove('light-mode');
         }
     }

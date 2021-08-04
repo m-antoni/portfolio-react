@@ -10,7 +10,6 @@ function Education () {
 						<div className="resume-content wow fadeInUp">
 							<h3 className="mb-0">St. Claire College of Caloocan</h3>
 							<div className="subheading mb-2">Bachelor of Science in Computer Science</div>
-							<div>4 Year Course</div>
 						</div>
 						<div className="resume-date text-md-right">
 							<span className="text-primary">2016 - 2019</span>

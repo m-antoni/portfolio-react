@@ -15,46 +15,26 @@ import SwitchIcon from './components/SwitchIcon';
 function App() {
   return (
       <Fragment>
-        
         <Navbar/>
-
         <div className="container-fluid p-0">
-          {/* <SwitchIcon/> */}
-    
+          <SwitchIcon/>
           <About/>
-
           <hr className="m-0" />
-
           <Experience/>
-
           <hr className="m-0"/>
-          
           <Education/>
-
           <hr className="m-0"/>
-
           <Skills/>
-
           <hr className="m-0"/>
-
           <Portfolio/>
-
           <hr className="m-0"/>
-          
           <Seminars/>
-
           <hr className="m-0"/>
-
           <Awards/>
-
           <hr className="m-0"/>
-
           <Contact/>
-
         </div>
-        
-        <a id="button"></a> 
-         
+        <a id="button"></a>
       </Fragment>
   );
 }
