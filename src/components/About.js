@@ -5,10 +5,12 @@ function About () {
 	return (
 		<section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
 			<div className="w-100">	
-				<h1 className="mb-2 wow fadeInDown light-name"><span>Michael</span>&nbsp; <span className="wow fadeInRight"> Antoni</span> </h1>
-				<div className="subheadingtop mb-5 wow slideInUp"><i className="fa fa-map-marker"></i> &nbsp;Caloocan City, Metro Manila Philippines
-					<div><i className="fa fa-mobile"></i> &nbsp; 0927-879-8439 &nbsp;|&nbsp; 0939-420-1796</div>
+				<h1 className="mb-2 wow fadeInDown light-name"><span>Michael</span>&nbsp; <span className="wow fadeInRight">B. Antoni</span> </h1>
+				<div className="subheadingtop mb-5 wow slideInUp">
+					<div><i className="fab fa-viber viber-c"></i>&nbsp; Viber: +639278798439</div>
+					<div><i className="fab fa-whatsapp whatsapp-c"></i>&nbsp; WhatsApp: +639394201796</div>
 					<br/>
+
 					<div><i className="fa fa-envelope"></i>&nbsp;<a href="mailto:michaelantoni.cs@gmail.com" className="text-primary social-links"> michaelantoni.cs@gmail.com</a></div>
 					<div><i className="fab fa-github"></i>&nbsp;<a href="https://www.github.com/m-antoni" className="text-primary social-links" target="_blank"> www.github.com/m-antoni</a></div>
 					<div><i className="fab fa-linkedin-in"></i>&nbsp;<a href="https://linkedin.com/in/michaelantoni-cs" className="text-primary social-links" target="_blank"> linkedin.com/in/michaelantoni-cs</a></div>
