@@ -346,17 +346,24 @@ a:hover, a:focus, a:active {
 
 .viber-c{
   color: #79509a;
-  font-size: 26px !important;
+  /* font-size: 26px !important; */
 }
 
 .whatsapp-c{
   color: #59f775;
-  font-size: 26px !important;
+  /* font-size: 26px !important; */
 }
 
 
 .f25{
   font-size: 25px !important;
+}
+
+
+.mini-profile{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 
 @media only screen and (max-width : 1224px) {

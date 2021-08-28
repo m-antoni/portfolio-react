@@ -9,11 +9,13 @@ function Navbar () {
 			<a className="navbar-brand js-scroll-trigger" href="#about">
 			<span className="d-block d-lg-none">
 				<a data-fancybox="profile_img" href="/assets/img/profile.jpg">
-					<img className="img-fluid rounded-circle hoverEffect wow fadeInLeft" data-wow-delay="2s" src="/assets/img/profile.jpg" alt="profile_img" width="50px"/>
+					<img className="img-fluid rounded-circle hoverEffect wow fadeInLeft mini-profile" data-wow-delay="2s" src="/assets/img/profile.jpg" alt="profile_img"/>
 				</a>
 			</span>
 			<span className="d-none d-lg-block">
-				<img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/img/profile.jpg" alt="profile_img"/>
+				<a data-fancybox="profile_img" href="/assets/img/profile.jpg">
+					<img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/img/profile.jpg" alt="profile_img"/>
+				</a>
 			</span>
 			</a>
 			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

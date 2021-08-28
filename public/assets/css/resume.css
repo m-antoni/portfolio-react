@@ -154,10 +154,15 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    /* max-width: 10rem;
+    max-height: 10rem; */
+    width: 190px;
+    height: 190px;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    object-fit: cover;
+
   }
+
   #sideNav .navbar-collapse {
     display: -webkit-box;
     display: -ms-flexbox;
