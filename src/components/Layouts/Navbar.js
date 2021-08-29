@@ -5,7 +5,7 @@ import $ from 'jquery';
 function Navbar () {
 	
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top py-0" id="sideNav">
 			<a className="navbar-brand js-scroll-trigger" href="#about">
 			<span className="d-block d-lg-none">
 				<a data-fancybox="profile_img" href="/assets/img/profile.jpg">

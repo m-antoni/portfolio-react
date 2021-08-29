@@ -5,7 +5,7 @@ function About () {
 	return (
 		<section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
 			<div className="w-100">	
-				<h1 className="mb-2 wow fadeInDown light-name"><span>Michael</span>&nbsp; <span className="wow fadeInRight">B. &nbsp;Antoni</span> </h1>
+				<h1 className="mb-2 wow fadeInDown light-name"><span>Michael</span> <span className="wow fadeInRight">&nbsp;Antoni</span> </h1>
 				<div className="subheadingtop mb-5 wow slideInUp">
 					<div><i className="fab fa-viber viber-c"></i>&nbsp; Viber: +639278798439</div>
 					<div><i className="fab fa-whatsapp whatsapp-c"></i>&nbsp; WhatsApp: +639394201796</div>
