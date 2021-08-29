@@ -346,12 +346,15 @@ a:hover, a:focus, a:active {
 
 .viber-c{
   color: #79509a;
-  /* font-size: 26px !important; */
 }
 
 .whatsapp-c{
-  color: #59f775;
-  /* font-size: 26px !important; */
+  color: #25D366;
+}
+
+
+.skype-c{
+  color: #00aff0;
 }
 
 

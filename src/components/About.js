@@ -5,16 +5,17 @@ function About () {
 	return (
 		<section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
 			<div className="w-100">	
-				<h1 className="mb-2 wow fadeInDown light-name"><span>Michael</span> <span className="wow fadeInRight">&nbsp;Antoni</span> </h1>
+				<h1 className="mb-2 wow fadeInDown light-name"><span>Michael</span>&nbsp; <span className="wow fadeInRight">Antoni</span> </h1>
 				<div className="subheadingtop mb-5 wow slideInUp">
-					<div><i className="fab fa-viber viber-c"></i>&nbsp; Viber: +639278798439</div>
-					<div><i className="fab fa-whatsapp whatsapp-c"></i>&nbsp; WhatsApp: +639394201796</div>
+					<div><i className="fab fa-viber viber-c"></i>&nbsp; viber: +639278798439</div>
+					<div><i className="fab fa-whatsapp whatsapp-c"></i>&nbsp; whatsapp: +639394201796</div>
+					<div><i className="fab fa-skype skype-c"></i>&nbsp; skype: live:.cid.e619dfe6799d9f89</div>
 					<br/>
 
 					<div><i className="fa fa-envelope"></i>&nbsp;<a href="mailto:michaelantoni.cs@gmail.com" className="text-primary social-links"> michaelantoni.cs@gmail.com</a></div>
-					<div><i className="fab fa-github"></i>&nbsp;<a href="https://www.github.com/m-antoni" className="text-primary social-links" target="_blank"> www.github.com/m-antoni</a></div>
 					<div><i className="fab fa-linkedin-in"></i>&nbsp;<a href="https://linkedin.com/in/michaelantoni-cs" className="text-primary social-links" target="_blank"> linkedin.com/in/michaelantoni-cs</a></div>
-					<div><i className="fas fa-code-branch"></i>&nbsp;<a href="#" className="text-primary social-links"> Freelancing: <span className="text-success wow flash" data-wow-duration="2s" data-wow-iteration="1000">Available</span></a></div>
+					<div><i className="fab fa-github"></i>&nbsp;<a href="https://www.github.com/m-antoni" className="text-primary social-links" target="_blank"> www.github.com/m-antoni</a></div>
+					<div><i className="fas fa-code-branch"></i>&nbsp;<a href="#" className="text-primary social-links"> freelancing: <span className="text-success wow flash" data-wow-duration="2s" data-wow-iteration="1000">active</span></a></div>
 				</div>
 
 				<p className="subheadingtop lead mb-5 wow fadeInRight">
