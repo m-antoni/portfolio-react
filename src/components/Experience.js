@@ -8,6 +8,21 @@ function Experience () {
 
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
+						<h3 className="mb-0">React JS Developer</h3>
+						<div className="subheading mb-3"><a className="text-primary" href="https://www.accenture.com/ph-en" target="_blank"><small><i className="fa fa-link"></i></small> Accenture</a></div>
+						<ul>
+							<li>Designing and implementing ReactJS based applications Analyzing user requirements to inform application design Defining application objectives and functionality</li>
+							<li>Aligning application design with business goals</li>
+							<li>Developing and testing software Debugging and resolving technical problems that arise Producing detailed design documentation recommending changes to existing react JS infrastructure developing documentation to assist users ReactJS Developer</li>
+						</ul>
+					</div>
+					<div className="resume-date text-md-right">
+						<span className="text-primary">Sept 2021 - </span><span className="text-success"><strong>PRESENT</strong></span>
+					</div>
+				</div>
+
+				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div className="resume-content wow fadeInUp">
 						<h3 className="mb-0">Full Stack Web Developer</h3>
 						<div className="subheading mb-3"><a className="text-primary" href="https://bluehive.com.ph/" target="_blank"><small><i className="fa fa-link"></i></small> Bluehive</a></div>
 						<ul>
@@ -17,21 +32,21 @@ function Experience () {
 						</ul>
 					</div>
 					<div className="resume-date text-md-right">
-						<span className="text-primary">Nov 2019 - </span><span className="text-success"><strong>PRESENT</strong></span>
+						<span className="text-primary">Nov 2019 - Sept 2021</span>
 					</div>
 				</div>
 
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
 						<h3 className="mb-0">Web Developer</h3>
-						<div className="subheading mb-3">DC Multinational Group of Companies</div>
+						<div className="subheading mb-3"><a className="text-primary" href="https://www.facebook.com/dcgroupintl" target="_blank"><small><i className="fa fa-link"></i></small> DC Multinational Group of Companies</a></div>
 						<ul>
 							<li>Back-end Engineering (Laravel)</li>
 							<li>Adding new features and functionality</li>
 						</ul>
 					</div>
 					<div className="resume-date text-md-right">
-						<span className="text-primary">June 2019 - October 2019</span>
+						<span className="text-primary">Jun 2019 - Oct 2019</span>
 					</div>
 				</div>
 

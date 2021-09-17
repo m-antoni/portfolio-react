@@ -14,6 +14,7 @@ function About () {
 
 					<div><i className="fa fa-envelope"></i>&nbsp;<a href="mailto:michaelantoni.cs@gmail.com" className="text-primary social-links"> michaelantoni.cs@gmail.com</a></div>
 					<div><i className="fab fa-linkedin-in"></i>&nbsp;<a href="https://linkedin.com/in/michaelantoni-cs" className="text-primary social-links" target="_blank"> linkedin.com/in/michaelantoni-cs</a></div>
+					{/* <div><i className="fab fa-instagram"></i>&nbsp;<a href="https://www.instagram.com/michaelantoni.cs/" className="text-primary social-links" target="_blank"> instagram.com/michaelantoni.cs</a></div> */}
 					<div><i className="fab fa-github"></i>&nbsp;<a href="https://www.github.com/m-antoni" className="text-primary social-links" target="_blank"> www.github.com/m-antoni</a></div>
 					<div><i className="fas fa-code-branch"></i>&nbsp;<a href="#" className="text-primary social-links"> freelancing: <span className="text-success wow flash" data-wow-duration="2s" data-wow-iteration="1000">active</span></a></div>
 				</div>
