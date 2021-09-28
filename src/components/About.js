@@ -7,9 +7,9 @@ function About () {
 			<div className="w-100">	
 				<h1 className="mb-2 wow fadeInDown light-name"><span>Michael</span>&nbsp; <span className="wow fadeInRight">Antoni</span> </h1>
 				<div className="subheadingtop mb-5 wow slideInUp">
-					<div><i className="fab fa-viber viber-c"></i>&nbsp; viber: +639278798439</div>
-					<div><i className="fab fa-whatsapp whatsapp-c"></i>&nbsp; whatsapp: +639394201796</div>
-					<div><i className="fab fa-skype skype-c"></i>&nbsp; skype: live:.cid.e619dfe6799d9f89</div>
+					<div>&nbsp; mobile: +639278798439</div>
+					<div>&nbsp; viber/whatsapp: +639394201796</div>
+					<div>&nbsp; skype: live:.cid.e619dfe6799d9f89</div>
 					<br/>
 
 					<div><i className="fa fa-envelope"></i>&nbsp;<a href="mailto:michaelantoni.cs@gmail.com" className="text-primary social-links"> michaelantoni.cs@gmail.com</a></div>
