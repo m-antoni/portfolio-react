@@ -343,6 +343,9 @@ a:hover, a:focus, a:active {
   font-weight: 500 !important;
 }
 
+.email-link{
+  color: #868e96 !important;
+}
 
 .f25{
   font-size: 25px !important;
