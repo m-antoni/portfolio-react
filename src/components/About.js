@@ -21,10 +21,10 @@ function About () {
 				</div>
 
 				<p className="subheadingtop lead mb-5 wow fadeInRight">
-					Over 9 years experience working in IT Industry with demonstrated design 
-					and build applications with secured, efficient and maintainable by using
-					the best practice in software development. also specialize in handling 
-					computer hardware, software, network installation, maintenance 
+					Over 9 years experience working in the industry with demonstrated design and build applications that are secure, 
+					efficient and maintainable. by using the best practice in software development. I’m extremely passionate about web 
+					development, and design in all its forms, specializing in (JavaScript, React, Node, PHP, MySQL, MongoDB). Aside from 
+					programming, I have years of experience in handling computer hardware, software, network installation, maintenance 
 					and troubleshooting.
 				</p>
 				{/* "Design and build applications that is secured, efficient and maintainable by using the best 
