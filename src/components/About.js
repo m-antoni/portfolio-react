@@ -11,11 +11,8 @@ function About () {
 					<div><i className="fab fa-skype"></i>&nbsp;skype: live:.cid.e619dfe6799d9f89</div>
 					<div><i className="fa fa-envelope"></i>&nbsp;<a href="mailto:michaelantoni.cs@gmail.com" className="email-link social-links">michaelantoni.cs@gmail.com</a></div>
 					<br/>
-
-					
 					<div><i className="fab fa-linkedin-in"></i>&nbsp;<a href="https://linkedin.com/in/michaelantoni-cs" className="text-primary social-links" target="_blank">linkedin.com/in/michaelantoni-cs</a></div>
 					<div><i className="fab fa-instagram"></i>&nbsp;<a href="https://www.instagram.com/michaelantoni.cs/" className="text-primary social-links" target="_blank">instagram.com/michaelantoni.cs</a></div>
-					<div><i className="fab fa-twitter"></i>&nbsp;<a href="https://twitter.com/michaelantoni02/" className="text-primary social-links" target="_blank">twitter.com/michaelantoni02</a></div>
 					<div><i className="fab fa-github"></i>&nbsp;<a href="https://www.github.com/m-antoni" className="text-primary social-links" target="_blank">github.com/m-antoni</a></div>
 					<div><i className="fas fa-code-branch"></i>&nbsp;<a href="#" className="text-primary social-links"> freelancing: <span className="text-success wow flash" data-wow-duration="2s" data-wow-iteration="1000">active</span></a></div>
 				</div>
