@@ -39,7 +39,7 @@ function Experience () {
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
 						<h3 className="mb-0">Web Developer</h3>
-						<div className="subheading mb-3"><a className="text-primary" href="https://www.facebook.com/dcgroupintl" target="_blank">DC Multinational Group of Companies</a></div>
+						<div className="subheading mb-3">DC Multinational Group of Companies</div>
 					</div>
 					<div className="resume-date text-md-right">
 						<span className="text-primary">Jun 2019 - Oct 2019</span>

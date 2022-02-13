@@ -7,12 +7,11 @@ function About () {
 			<div className="w-100">	
 				<h1 className="mb-2 wow fadeInDown light-name"><span>Michael</span>&nbsp; <span className="wow fadeInRight">Antoni</span> </h1>
 				<div className="subheadingtop mb-5 wow slideInUp">
-					<div><i className="fab fa-viber"></i>&nbsp;(Viber) +639394201796</div>
-					<div><i className="fab fa-skype"></i>&nbsp;(Skype) live:.cid.e619dfe6799d9f89</div>
+					<div><i className="fab fa-viber"></i>&nbsp;Viber: +639394201796</div>
 					<div><i className="fa fa-envelope"></i>&nbsp;<a href="mailto:michaelantoni.cs@gmail.com" className="email-link social-links">michaelantoni.cs@gmail.com</a></div>
 					<br/>
 					<div><i className="fab fa-linkedin-in"></i>&nbsp;<a href="https://linkedin.com/in/michaelantoni-cs" className="text-primary social-links" target="_blank">linkedin.com/in/michaelantoni-cs</a></div>
-					<div><i className="fab fa-instagram"></i>&nbsp;<a href="https://www.instagram.com/michaelantoni.cs/" className="text-primary social-links" target="_blank">instagram.com/michaelantoni.cs</a></div>
+					{/* <div><i className="fab fa-instagram"></i>&nbsp;<a href="https://www.instagram.com/michaelantoni.cs/" className="text-primary social-links" target="_blank">instagram.com/michaelantoni.cs</a></div> */}
 					<div><i className="fab fa-github"></i>&nbsp;<a href="https://www.github.com/m-antoni" className="text-primary social-links" target="_blank">github.com/m-antoni</a></div>
 					<div><i className="fas fa-briefcase"></i>&nbsp;<a href="#" className="text-primary social-links">Freelancing: <span className="text-success wow flash" data-wow-duration="2s" data-wow-iteration="1000">Active</span></a></div>
 				</div>
