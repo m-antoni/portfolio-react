@@ -18,8 +18,8 @@ function Experience () {
 
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
-						<h3 className="mb-0">(Freelance) Full-Stack Web Developer</h3>
-						<div>Project Base only</div>
+						<h3 className="mb-0">Freelance: Full Stack Web Developer</h3>
+						<div>Project Based only</div>
 						<div className="subheading mb-3"><a className="text-primary" href="https://talentlyrecruiting.com/" target="_blank"> Talently Recruiting</a></div>
 					</div>
 					<div className="resume-date text-md-right">
@@ -29,7 +29,7 @@ function Experience () {
 
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
-						<h3 className="mb-0">Full-Stack Web Developer</h3>
+						<h3 className="mb-0">Full Stack Web Developer</h3>
 						<div className="subheading mb-3"><a className="text-primary" href="https://bluehive.com.ph/" target="_blank"> Bluehive</a></div>
 					</div>
 					<div className="resume-date text-md-right">
