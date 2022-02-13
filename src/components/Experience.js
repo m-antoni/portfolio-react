@@ -19,7 +19,7 @@ function Experience () {
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
 						<h3 className="mb-0">Freelance: Full-Stack Web Developer (Project Base)</h3>
-						<div className="subheading mb-3"><a className="text-primary" href="#" target="_blank"> Talently</a></div>
+						<div className="subheading mb-3"><a className="text-primary" href="#" target="_blank"> Talently Recruiting</a></div>
 					</div>
 					<div className="resume-date text-md-right">
 						<span className="text-primary">Jan 2022 - Feb 2022</span>
