@@ -17,10 +17,9 @@ function About () {
 				</div>
 
 				<p className="subheadingtop lead mb-5 wow fadeInRight">
-					Experienced working in the industry with demonstrated design and build applications that secure, efficient and maintainable. 
-					by using the best practice in software development. I’m extremely passionate about learning & creating projects that could 
-					change and improve people's lives. Aside from programming, I have years of experience handling computer hardware, software, 
-					installation, maintenance and troubleshooting.
+					Experienced working in the industry with demonstrated design and build applications that are secure, efficient and maintainable. 
+					by using the best practice in software development. I’m extremely passionate about learning and creating projects that could change 
+					and improve people's lives. Aside from programming, I have years of experience handling computer hardware, software, installation, maintenance, and troubleshooting.
 				</p>
 				{/* "Design and build applications that is secured, efficient and maintainable by using the best 
 				practice in software development. collaborate with developers that aim to bring the best 
