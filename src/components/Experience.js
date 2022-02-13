@@ -8,7 +8,7 @@ function Experience () {
 
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
-						<h3 className="mb-0">React JS Developer</h3>
+						<h3 className="mb-0">Application Development Senior Analyst</h3>
 						<div className="subheading mb-3"><a className="text-primary" href="https://www.accenture.com/ph-en" target="_blank"> Accenture</a></div>
 					</div>
 					<div className="resume-date text-md-right">
@@ -18,7 +18,17 @@ function Experience () {
 
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
-						<h3 className="mb-0">Full Stack Web Developer</h3>
+						<h3 className="mb-0">Freelance: Full-Stack Web Developer (Project Base)</h3>
+						<div className="subheading mb-3"><a className="text-primary" href="#" target="_blank"> Talently</a></div>
+					</div>
+					<div className="resume-date text-md-right">
+						<span className="text-primary">Jan 2022 - Feb 2022</span>
+					</div>
+				</div>
+
+				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div className="resume-content wow fadeInUp">
+						<h3 className="mb-0">Full-Stack Web Developer</h3>
 						<div className="subheading mb-3"><a className="text-primary" href="https://bluehive.com.ph/" target="_blank"> Bluehive</a></div>
 					</div>
 					<div className="resume-date text-md-right">
