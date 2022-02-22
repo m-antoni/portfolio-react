@@ -16,11 +16,6 @@ function Portfolio () {
 							<div className="port-title port-text mr-3">
 								<span className="port-title">E-Commerce:</span>
 							</div>
-							<div className="port-title port-text mr-3">
-								<a href="https://michael-ecommerce-mern.netlify.app/" target="_blank"> 
-									<small><i className="fa fa-link"></i></small> Demo Here
-								</a>
-							</div>
 							<div className="port-links port-text">
 								<a href="https://github.com/m-antoni/e-commerce-react" target="_blank"><i className="fab fa-github-alt"></i> Frontend</a>
 								<a href="https://github.com/m-antoni/e-commerce-mern-api" className="pl-2" target="_blank"><i className="fab fa-github-alt"></i> Backend</a>
@@ -46,11 +41,6 @@ function Portfolio () {
 							<div className="port-title port-text mr-3">
 								<span className="port-title">Quote Generator:</span>
 							</div>
-							<div className="port-title port-text mr-3">
-								<a href="https://michael-quotegenerator.netlify.app" target="_blank"> 
-									<small><i className="fa fa-link"></i></small> Demo Here
-								</a>
-							</div>
 							<div className="port-links port-text">
 								<a href="https://github.com/m-antoni/quote-generator" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
 							</div>
@@ -67,12 +57,7 @@ function Portfolio () {
 					<div class="col-md-6 col-12 mb-4">
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
-								<span className="port-title">Simple Task Manager :</span>
-							</div>
-							<div className="port-title port-text mr-3">
-								<a href="https://michaelantoni-tm.herokuapp.com/" target="_blank"> 
-									<small><i className="fa fa-link"></i></small> Demo Here
-								</a>
+								<span className="port-title">Simple Task Manager:</span>
 							</div>
 							<div className="port-links port-text">
 								<a href="https://github.com/m-antoni/task-manager" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
@@ -94,11 +79,6 @@ function Portfolio () {
 							<div className="port-title port-text mr-3">
 								<span className="port-title">Quiz App :</span>
 							</div>
-							<div className="port-title port-text mr-3">
-								<a href="https://michael-quiz-app.netlify.app/" target="_blank"> 
-									<small><i className="fa fa-link"></i></small> Demo Here
-								</a>
-							</div>
 							<div className="port-links port-text">
 								<a href="https://github.com/m-antoni/quiz-app" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
 							</div>
@@ -119,11 +99,6 @@ function Portfolio () {
 						<div className="port-container"> 
 							<div className="port-title port-text mr-3">
 								<span className="port-title">Weather App:</span>
-							</div>
-							<div className="port-title port-text mr-3">
-								<a href="https://michael-weatherapp.netlify.app/" target="_blank"> 
-									<small><i className="fa fa-link"></i></small> Demo Here  
-								</a>
 							</div>
 							<div className="port-links port-text">
 								<a href="https://github.com/m-antoni/weather-app" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
@@ -270,9 +245,6 @@ function Portfolio () {
 									<div className="port-title port-text mr-3">
 										<span className="port-title">Learning System:</span>
 									</div>
-									<div className="port-links port-text">
-										<a href="https://github.com/m-antoni/learning_system" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
-									</div>
 								</div>
 								<div className="port-tech">Technologies: Visual Fox Pro</div>
 								<a data-fancybox="ils" href="assets/img/portfolio/ils/1.jpg">
@@ -291,9 +263,6 @@ function Portfolio () {
 								<div className="port-container"> 
 									<div className="port-title port-text mr-3">
 										<span className="port-title">Enrollment System:</span>
-									</div>
-									<div className="port-links port-text">
-										<a href="https://github.com/m-antoni/stark" target="_blank"><i className="fab fa-github-alt"></i> Source Code</a>
 									</div>
 								</div>
 								<div className="port-tech">Technologies: Visual Fox Pro</div>
