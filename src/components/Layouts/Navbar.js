@@ -44,9 +44,9 @@ function Navbar () {
 					<li className="nav-item">
 					<AnchorLink onClick={() => $('.navbar-collapse').removeClass('show')} className="nav-link js-scroll-trigger" href="#awards">Awards</AnchorLink>
 					</li>
-					{<li className="nav-item">
+					{/* {<li className="nav-item">
 					<AnchorLink onClick={() => $('.navbar-collapse').removeClass('show')} className="nav-link js-scroll-trigger" href="#contact">Contact</AnchorLink>
-					</li>}
+					</li>} */}
 				</ul>
 			</div>
 		</nav>

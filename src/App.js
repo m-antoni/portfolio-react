@@ -31,8 +31,8 @@ function App() {
           <Seminars/>
           <hr className="m-0"/>
           <Awards/>
-          <hr className="m-0"/>
-          <Contact/>
+          {/* <hr className="m-0"/>
+          <Contact/> */}
         </div>
         <a id="button"></a>
       </Fragment>
