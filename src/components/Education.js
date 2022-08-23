@@ -8,7 +8,7 @@ function Education () {
 
 					<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 						<div className="resume-content wow fadeInUp">
-							<h3 className="mb-0">St. Claire College of Caloocan</h3>
+							<h3 className="mb-0">St. Clare College of Caloocan</h3>
 							<div className="subheading mb-2">Bachelor of Science in Computer Science</div>
 						</div>
 						<div className="resume-date text-md-right">
