@@ -20,7 +20,7 @@ function Experience () {
 					<div className="resume-content wow fadeInUp">
 						<h3 className="mb-0">Freelance: Full Stack Web Developer</h3>
 						<div>Project Based only</div>
-						<div className="subheading mb-3"><a className="text-primary" href="https://talentlyrecruiting.com/" target="_blank"> Talently Recruiting</a></div>
+						<div className="subheading mb-3">Stealth Startup</div>
 					</div>
 					<div className="resume-date text-md-right">
 						<span className="text-primary">Jan 2022 - Feb 2022</span>
