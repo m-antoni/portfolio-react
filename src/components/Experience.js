@@ -8,7 +8,7 @@ function Experience () {
 
 				<div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div className="resume-content wow fadeInUp">
-						<h3 className="mb-0">Advanced App Engineering Senior Analyst</h3>
+						<h3 className="mb-0">Senior Software Engineer</h3>
 						<div className="subheading mb-3"><a className="text-primary" href="https://www.accenture.com/ph-en" target="_blank"> Accenture</a></div>
 					</div>
 					<div className="resume-date text-md-right">
