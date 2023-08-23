@@ -10,7 +10,7 @@ function About () {
 					<div><i className="fa fa-mobile"></i>&nbsp;Mobile: (+63) 9278798439</div>
 					<div><i className="fab fa-viber"></i>&nbsp;Viber: (+63) 9394201796</div>
 					<div><i className="fab fa-skype"></i>&nbsp;Skype: live:.cid.11bf144f7f794e9a</div>
-					<div><i className="fa fa-envelope"></i>&nbsp;<a href="mailto:michaelantoni.cs@gmail.com" className="email-link social-links">michaelantoni.cs@gmail.com</a></div>
+					<div><i className="fa fa-envelope"></i>&nbsp;<a href="mailto:michaelantoni.cs@gmail.com" className="email-link social-links">michaelantoni.tech@gmail.com</a></div>
 					<br/>
 					<div><i className="fab fa-linkedin-in"></i>&nbsp;<a href="https://linkedin.com/in/michaelantoni-cs" className="text-primary social-links" target="_blank">linkedin.com/in/michaelantoni-cs</a></div>
 					{/* <div><i className="fab fa-instagram"></i>&nbsp;<a href="https://www.instagram.com/michaelantoni.cs/" className="text-primary social-links" target="_blank">instagram.com/michaelantoni.cs</a></div> */}
