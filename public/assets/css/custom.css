@@ -351,6 +351,9 @@ a:hover, a:focus, a:active {
   font-size: 25px !important;
 }
 
+.f-b{
+  font-weight: 600;
+}
 
 .mini-profile{
   width: 60px;

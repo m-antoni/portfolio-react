@@ -3,25 +3,24 @@ import React from 'react';
 function Skill () {
 
 	const iconsData = [
-		{ url: 'https://www.w3schools.com/js/DEFAULT.asp', svg: 'js.svg' },
-		{ url: 'https://jquery.com/', svg: 'jq.svg' },
+		{ url: 'https://nodejs.org/en/', svg: 'node.svg' },
 		{ url: 'https://www.php.net/', svg: 'php.svg' },
-		{ url: 'https://www.mysql.com/', svg: 'mysql.svg' },
-		{ url: 'https://firebase.google.com/', svg: 'firebase.svg' },
-		{ url: 'https://www.mongodb.com/', svg: 'mongodb.svg' },
-		{ url: 'https://getbootstrap.com/', svg: 'bs.svg' },
+		{ url: 'https://lumen.laravel.com/', svg: 'lumen.svg' },
+		// { url: 'https://laravel.com/', svg: 'laravel.svg' },
+		{ url: 'https://www.typescriptlang.org/', svg: 'ts.svg'},
+		{ url: 'https://www.w3schools.com/js/DEFAULT.asp', svg: 'js.svg' },
 		{ url: 'https://www.mui.com/', svg: 'material-ui.svg' },
 		{ url: 'https://reactjs.org/', svg: 'react.svg' },
 		{ url: 'https://redux.js.org/', svg: 'redux.svg' },
-		// { url: 'https://angular.io/', svg: 'angular.svg'},
-		{ url: 'https://www.typescriptlang.org/', svg: 'ts.svg'},
-		{ url: 'https://nodejs.org/en/', svg: 'node.svg' },
-		{ url: 'https://laravel.com/', svg: 'laravel.svg' },
-		{ url: 'https://lumen.laravel.com/', svg: 'lumen.svg' },
+		{ url: 'https://angular.io/', svg: 'angular.svg'},
+		{ url: 'https://www.mongodb.com/', svg: 'mongodb.svg' },
+		{ url: 'https://www.mysql.com/', svg: 'mysql.svg' },
+		{ url: 'https://firebase.google.com/', svg: 'firebase.svg' },
+		{ url: 'https://getbootstrap.com/', svg: 'bs.svg' },
 		// { url: 'https://ubuntu.com/', svg: 'ubuntu.svg' },
 		// { url: 'https://www.microsoft.com/en-ph/windows', svg: 'windows.svg' },
 		{ url: 'https://git-scm.com/', svg: 'git.svg'},
-		// { url: 'https://bitbucket.org/', svg: 'bb.svg'},
+		{ url: 'https://bitbucket.org/', svg: 'bb.svg'},
 	]
 
 	return (
